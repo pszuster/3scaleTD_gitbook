@@ -1,0 +1,682 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Lab 2 - Create your first API · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="lab_3_-_rate_limiting.html" />
+    
+    
+    <link rel="prev" href="lab_1_-_installation.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    3ScaleAMPWorkshop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="red_hat_3scale_api_manager_platform_introduction.html">
+            
+                <a href="red_hat_3scale_api_manager_platform_introduction.html">
+            
+                    
+                    Red Hat 3Scale API Manager Platform Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="notes.html">
+            
+                <a href="notes.html">
+            
+                    
+                    Notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="lab_0_-_setup.html">
+            
+                <a href="lab_0_-_setup.html">
+            
+                    
+                    Lab 0 - Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="lab_1_-_installation.html">
+            
+                <a href="lab_1_-_installation.html">
+            
+                    
+                    Lab 1 - Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="lab_2_-_create_your_first_api.html">
+            
+                <a href="lab_2_-_create_your_first_api.html">
+            
+                    
+                    Lab 2 - Create your first API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="lab_3_-_rate_limiting.html">
+            
+                <a href="lab_3_-_rate_limiting.html">
+            
+                    
+                    Lab 3 - Rate Limiting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="lab_4_-_api_documentation.html">
+            
+                <a href="lab_4_-_api_documentation.html">
+            
+                    
+                    Lab 4 - API Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="lab_5_-_analytics.html">
+            
+                <a href="lab_5_-_analytics.html">
+            
+                    
+                    Lab 5 - Analytics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="lab_6_-_developer_portal.html">
+            
+                <a href="lab_6_-_developer_portal.html">
+            
+                    
+                    Lab 6 - Developer Portal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="lab_7_-_exposing_a_soap_service_with_fis.html">
+            
+                <a href="lab_7_-_exposing_a_soap_service_with_fis.html">
+            
+                    
+                    Lab 7 - Exposing a SOAP Service with FIS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="lab_8_-_exposing_an_odata_service_with_jdv.html">
+            
+                <a href="lab_8_-_exposing_an_odata_service_with_jdv.html">
+            
+                    
+                    Lab 8 - Exposing an OData Service with JDV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="lab_9_-_sample_application.html">
+            
+                <a href="lab_9_-_sample_application.html">
+            
+                    
+                    Lab 9 - Sample Application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="lab_10_-_securing_apis_with_oauth2.html">
+            
+                <a href="lab_10_-_securing_apis_with_oauth2.html">
+            
+                    
+                    Lab 10 - Securing APIs with OAuth2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Lab 2 - Create your first API</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="lab-2-create-your-first-api">Lab 2 - Create your first API </h1>
+<table>
+<thead>
+<tr>
+<th><img src="images/image26.png" alt="RH_Icon_Compass_Button.png"></th>
+<th>In this lab, you will create your first API in 3Scale AMP, exposing a REST JEE application which is running in a JBoss Enterprise Application Platform (EAP) container in the same OCP cluster.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Open a new web browser tab.</li>
+<li>Go to <a href="https://www.google.com/url?q=https://3scale-admin.3scale1.rhtechofficelatam.com&amp;sa=D&amp;ust=1530635179293000" target="_blank">https://3scale-admin.3scale[ your instance #].rhtechofficelatam.com</a>.</li>
+<li>Login as admin/admin</li>
+<li>If a &#x201C;connection not private&#x201D; warning appears, click on Proceed to ..</li>
+<li>Login with admin/admin.</li>
+</ol>
+<p><img src="images/image110.png" alt=""></p>
+<ol>
+<li>Click on the grey X to dismiss the Getting started wizard.</li>
+</ol>
+<p><img src="images/image65.png" alt=""></p>
+<ol>
+<li>Notice there is a pre-built API called &#x201C;API&#x201D; that is useful for learning/testing.</li>
+</ol>
+<p><img src="images/image43.png" alt=""></p>
+<ol>
+<li>Click on the Create Service link.</li>
+</ol>
+<p><img src="images/image17.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Name: Products</p>
+</li>
+<li>System Name: products_system</li>
+<li>Description: RHMart Products API</li>
+</ol>
+<p><img src="images/image33.png" alt=""></p>
+<ol>
+<li>Scroll down to the bottom of the page, and make sure API Key is selected as authentication method.</li>
+<li>Click on the Create Service button.</li>
+</ol>
+<p><img src="images/image138.png" alt=""></p>
+<ol>
+<li>In the APIs section, expand the Products API and scroll down to the Published Application Plans section.</li>
+<li>Click on the Create Application Plan link.</li>
+</ol>
+<p><img src="images/image186.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Name: ProductsBasicPlan</p>
+</li>
+<li><p>System Name: products/basic</p>
+</li>
+<li><p>Click on the Create Application Plan button.</p>
+</li>
+</ol>
+<p><img src="images/image113.png" alt=""></p>
+<ol>
+<li>Click on the Create Application Plan link.</li>
+</ol>
+<p><img src="images/image155.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Name: ProductsPremiumPlan</p>
+</li>
+<li><p>System Name: products/premium</p>
+</li>
+<li><p>Click on the Create Application Plan button.</p>
+</li>
+</ol>
+<p><img src="images/image98.png" alt=""></p>
+<ol>
+<li>Select the ProductsBasicPlan as Default Plan.</li>
+<li>Click on the Publish link for both Basic and Premium plans.</li>
+</ol>
+<p><img src="images/image12.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th><img src="images/image34.png" alt="general_info_polished.png"></th>
+<th>Plans are used for granting access to specific APIs and endpoints, limiting traffic and monetizing API usage. Application plans let you configure access rights to an API by specifying rate limits and pricing rules. All applications must be associated with a plan. Application plans can be customized for one application.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Click on the Developers tab.</li>
+<li>Click on the Create link.</li>
+</ol>
+<p><img src="images/image52.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Username: rhbankdev</p>
+</li>
+<li>Email: developer@rhbank.com</li>
+<li>Password: rhbank</li>
+<li>Organization: RHBank</li>
+</ol>
+<p><img src="images/image38.png" alt=""></p>
+<ol>
+<li>Click on the 1 Application breadcrumb.</li>
+<li>Notice there is one default application for the built-in &#x201C;API&#x201D; service.</li>
+</ol>
+<p><img src="images/image3.png" alt=""></p>
+<ol>
+<li>Click on the Create Application link.</li>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Application Plan: ProductsBasicPlan</p>
+</li>
+<li>Name: ProductsApp</li>
+<li><p>Description: Products Application</p>
+</li>
+<li><p>Click on the Create Application button.</p>
+</li>
+</ol>
+<p><img src="images/image145.png" alt=""></p>
+<ol>
+<li>Click on the APIs tab.</li>
+<li>Expand the Products API and click on Integration.</li>
+</ol>
+<p><img src="images/image51.png" alt=""></p>
+<ol>
+<li>Click on the add the base URL of your API and save the configuration button.</li>
+</ol>
+<p><img src="images/image108.png" alt=""></p>
+<ol>
+<li>Expand the Mapping Rules section.</li>
+<li>Click on the Define Metric/Method  link.</li>
+</ol>
+<p><img src="images/image2.png" alt=""></p>
+<ol>
+<li>Click on the New Method link in the Methods section.</li>
+</ol>
+<p><img src="images/image49.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Friendly Name: Get Product</p>
+</li>
+<li>System Name: product/get</li>
+<li><p>Description: Get a product by ID.</p>
+</li>
+<li><p>Click on the Create Method button.</p>
+</li>
+</ol>
+<p><img src="images/image123.png" alt=""></p>
+<ol>
+<li>Repeat this procedure for the following methods:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Friendly Name</th>
+<th>System Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Create Product</td>
+<td>product/create</td>
+<td>Create a new Product</td>
+</tr>
+<tr>
+<td>Delete Product</td>
+<td>product/delete</td>
+<td>Delete a product by ID</td>
+</tr>
+<tr>
+<td>Get All Products</td>
+<td>product/getall</td>
+<td>Get all products</td>
+</tr>
+</tbody>
+</table>
+<p><img src="images/image136.png" alt=""></p>
+<ol>
+<li>Click on any of the &#x201C;Add a Mapping rule&#x201D; links.</li>
+<li>Click on the edit icon next to the GET mapping rule.</li>
+<li>Enter /rest/services/product/ as the Pattern.</li>
+<li>Select product/get as Method.</li>
+</ol>
+<p><img src="images/image117.png" alt=""></p>
+<ol>
+<li>Click on the Add Mapping Rule link.</li>
+<li>Repeat this procedure for the following values:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Verb</th>
+<th>Pattern</th>
+<th>Method</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td>/rest/services/product</td>
+<td>product/create</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/rest/services/product/</td>
+<td>product/delete</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>/rest/services/products</td>
+<td>product/getall</td>
+</tr>
+</tbody>
+</table>
+<p><img src="images/image85.png" alt=""></p>
+<ol>
+<li>Open a new web browser tab, and go to <a href="https://www.google.com/url?q=https://threescale.3scale1.rhtechofficelatam.com:8443/console/&amp;sa=D&amp;ust=1530635179318000" target="_blank">https://threescale.3scale[your instance #].rhtechofficelatam.com:8443/console/</a> </li>
+<li>Click on the Products API project.</li>
+</ol>
+<p><img src="images/image163.png" alt=""></p>
+<ol>
+<li>Take note of the Products API http route. It should be <a href="http://products.3scale[" target="_blank">http://products.3scale[</a> your instance #].rhtechofficelatam.com</li>
+</ol>
+<p><img src="images/image87.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th><img src="images/image34.png" alt="general_info_polished.png"></th>
+<th>The Products API is a restful service built on Java (JAX-RS), deployed on JBoss EAP and connected to a PostgreSQL DB.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Go back to 3Scale web browser tab.</li>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Private Base URL:  <a href="http://products.3scale[" target="_blank">http://products.3scale[</a> your instance #].rhtechofficelatam.com</p>
+</li>
+<li>Staging Public Base URL: <a href="https://products-apicast-staging.gateway.3scale[" target="_blank">https://products-apicast-staging.gateway.3scale[</a> your instance #].rhtechofficelatam.com:443</li>
+<li>Production Public Base URL: <a href="https://products-apicast-production.gateway.3scale[" target="_blank">https://products-apicast-production.gateway.3scale[</a> your instance #].rhtechofficelatam.com:443</li>
+</ol>
+<p><img src="images/image111.png" alt=""></p>
+<ol>
+<li>Scroll down to the API Test GET request.</li>
+<li>Enter  /rest/services/product/1.</li>
+<li>Click on the Update &amp; Test in Staging Environment.</li>
+</ol>
+<p><img src="images/image124.png" alt=""></p>
+<ol>
+<li>You should get a success message.</li>
+<li>Click on  the Back to Integration &amp; Configuration link.</li>
+</ol>
+<p><img src="images/image69.png" alt=""></p>
+<ol>
+<li>Select the URL after &#x201C;curl&#x201D; and copy it.</li>
+</ol>
+<p><img src="images/image42.png" alt=""></p>
+<ol>
+<li>Open a new web browser tab, and paste the URL.</li>
+<li>You should get a json document describing a product.</li>
+</ol>
+<p><img src="images/image164.png" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lab_1_-_installation.html" class="navigation navigation-prev " aria-label="Previous page: Lab 1 - Installation">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="lab_3_-_rate_limiting.html" class="navigation navigation-next " aria-label="Next page: Lab 3 - Rate Limiting">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Lab 2 - Create your first API","level":"1.6","depth":1,"next":{"title":"Lab 3 - Rate Limiting","level":"1.7","depth":1,"path":"lab_3_-_rate_limiting.md","ref":"lab_3_-_rate_limiting.md","articles":[]},"previous":{"title":"Lab 1 - Installation","level":"1.5","depth":1,"path":"lab_1_-_installation.md","ref":"lab_1_-_installation.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"lab_2_-_create_your_first_api.md","mtime":"2018-07-03T18:06:42.430Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-03T18:07:44.660Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

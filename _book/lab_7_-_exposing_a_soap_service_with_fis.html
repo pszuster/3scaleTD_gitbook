@@ -1,0 +1,637 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Lab 7 - Exposing a SOAP Service with FIS · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="lab_8_-_exposing_an_odata_service_with_jdv.html" />
+    
+    
+    <link rel="prev" href="lab_6_-_developer_portal.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    3ScaleAMPWorkshop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="red_hat_3scale_api_manager_platform_introduction.html">
+            
+                <a href="red_hat_3scale_api_manager_platform_introduction.html">
+            
+                    
+                    Red Hat 3Scale API Manager Platform Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="notes.html">
+            
+                <a href="notes.html">
+            
+                    
+                    Notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="lab_0_-_setup.html">
+            
+                <a href="lab_0_-_setup.html">
+            
+                    
+                    Lab 0 - Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="lab_1_-_installation.html">
+            
+                <a href="lab_1_-_installation.html">
+            
+                    
+                    Lab 1 - Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="lab_2_-_create_your_first_api.html">
+            
+                <a href="lab_2_-_create_your_first_api.html">
+            
+                    
+                    Lab 2 - Create your first API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="lab_3_-_rate_limiting.html">
+            
+                <a href="lab_3_-_rate_limiting.html">
+            
+                    
+                    Lab 3 - Rate Limiting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="lab_4_-_api_documentation.html">
+            
+                <a href="lab_4_-_api_documentation.html">
+            
+                    
+                    Lab 4 - API Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="lab_5_-_analytics.html">
+            
+                <a href="lab_5_-_analytics.html">
+            
+                    
+                    Lab 5 - Analytics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="lab_6_-_developer_portal.html">
+            
+                <a href="lab_6_-_developer_portal.html">
+            
+                    
+                    Lab 6 - Developer Portal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.11" data-path="lab_7_-_exposing_a_soap_service_with_fis.html">
+            
+                <a href="lab_7_-_exposing_a_soap_service_with_fis.html">
+            
+                    
+                    Lab 7 - Exposing a SOAP Service with FIS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="lab_8_-_exposing_an_odata_service_with_jdv.html">
+            
+                <a href="lab_8_-_exposing_an_odata_service_with_jdv.html">
+            
+                    
+                    Lab 8 - Exposing an OData Service with JDV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="lab_9_-_sample_application.html">
+            
+                <a href="lab_9_-_sample_application.html">
+            
+                    
+                    Lab 9 - Sample Application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="lab_10_-_securing_apis_with_oauth2.html">
+            
+                <a href="lab_10_-_securing_apis_with_oauth2.html">
+            
+                    
+                    Lab 10 - Securing APIs with OAuth2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Lab 7 - Exposing a SOAP Service with FIS</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="lab-7-exposing-a-soap-service-with-fis">Lab 7 - Exposing a SOAP Service with FIS </h1>
+<table>
+<thead>
+<tr>
+<th><img src="images/image26.png" alt="RH_Icon_Compass_Button.png"></th>
+<th>In this lab you will expose an existing SOAP based JEE application running on a JBoss EAP container in the same OCP cluster. To do this, you will deploy a Fuse Integration Services (FIS) application to OCP, which was configured to expose it as a REST service.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Open a web browser and go to <a href="https://www.google.com/url?q=https://github.com/pszuster/3ScaleTD/blob/master/Stores/src/main/java/com/redhat/service/StoresWS.java&amp;sa=D&amp;ust=1530635179385000" target="_blank">https://github.com/pszuster/3ScaleTD/blob/master/Stores/src/main/java/com/redhat/service/StoresWS.java</a></li>
+<li>This simple java class implements a JAX-WS SOAP webservice that allows consumers to create, delete or get Stores from RHMart.</li>
+</ol>
+<p><img src="images/image203.png" alt=""></p>
+<ol>
+<li>Go to <a href="https://threescale.3scale[your" target="_blank">https://threescale.3scale[your</a> instance #].rhtechofficelatam.com:8443</li>
+<li>Login as admin/admin</li>
+<li>Select the Stores API project.</li>
+<li>Click on the Add to Project button.</li>
+</ol>
+<p><img src="images/image67.png" alt=""></p>
+<ol>
+<li>Enter &#x201C;stores-soap&#x201D; in the Browse Catalog search field.</li>
+<li>Click on the Select button in the found template.</li>
+</ol>
+<p><img src="images/image57.png" alt=""></p>
+<ol>
+<li>Modify the &#x201C;Custom http Route Hostname&#x201D; to: stores-soap.3scale[tour instance #].rhtechofficelatam.com</li>
+<li>Scroll down to the bottom of the page and click on the Create button.</li>
+<li>Click on the Continue to Overview link.</li>
+<li>After ~5min the Stores SOAP API should be up and running (there should be two blue circles).</li>
+</ol>
+<p><img src="images/image66.png" alt=""></p>
+<ol>
+<li>Open a new web browser tab, and go to <a href="https://www.google.com/url?q=http://wsdlbrowser.com/&amp;sa=D&amp;ust=1530635179387000" target="_blank">http://wsdlbrowser.com/</a></li>
+<li><p>Enter the following value:</p>
+</li>
+<li><p>WSDL URL:  <a href="http://stores-soap.3scale[your" target="_blank">http://stores-soap.3scale[your</a> instance #].rhtechofficelatam.com/StoresWS?wsdl</p>
+</li>
+<li><p>Click on the Browse button.</p>
+</li>
+</ol>
+<p><img src="images/image148.png" alt=""></p>
+<ol>
+<li>Click on the getAllStores Soap operation.</li>
+<li>Click on the Call Function button.</li>
+</ol>
+<p><img src="images/image97.png" alt=""></p>
+<ol>
+<li>Close the browser tab, and go back to OpenShift console.</li>
+<li>Make sure you are in the Stores API project.</li>
+<li>Click on the  Add to project button.</li>
+</ol>
+<p><img src="images/image103.png" alt=""></p>
+<ol>
+<li>Enter &#x201C;stores-fis&#x201D; in the Browse Catalog search field.</li>
+<li>Click on the Select button in the found template.</li>
+</ol>
+<p><img src="images/image39.png" alt=""></p>
+<ol>
+<li>Change the HostName parameter to: stores-fis.3scale[your instance #].rhtechofficelatam.com</li>
+</ol>
+<p><img src="images/image167.png" alt=""></p>
+<ol>
+<li>Scroll down to the bottom of the page, and click on the Create button.</li>
+<li>Click on the Continue to overview link.</li>
+<li>After ~3min the Fuse Integration Services container should be up and running (there should be a blue circle).</li>
+</ol>
+<p><img src="images/image107.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th><img src="images/image34.png" alt="general_info_polished.png"></th>
+<th>This Fuse Integration Services container, has a SpringBoot Camel route, that transforms REST requests to SOAP requests and XML SOAP responses to JSON documents.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Open a new web browser tab, and go to <a href="http://stores-fis.3scale[your" target="_blank">http://stores-fis.3scale[your</a> instance #].rhtechofficelatam.com/allstores/</li>
+<li>You should receive a JSON document generated from the SOAP response.</li>
+<li>Close the tab.</li>
+<li>Go to <a href="https://3scale-admin.3scale[your" target="_blank">https://3scale-admin.3scale[your</a> instance #].rhtechofficelatam.com.</li>
+<li>Click on the configuration icon.</li>
+<li>Click on Personal Settings.</li>
+</ol>
+<p><img src="images/image50.png" alt=""></p>
+<ol>
+<li>Click on the Tokens tab.</li>
+<li>Click on the Add Access Token link.</li>
+</ol>
+<p><img src="images/image62.png" alt=""></p>
+<ol>
+<li>Enter Name: importer</li>
+<li><p>Check on both</p>
+</li>
+<li><p>Account Management API</p>
+</li>
+<li><p>Analytics API</p>
+</li>
+<li><p>Select Permission: Read &amp; Write.</p>
+</li>
+<li>Click on the Create Access Token button.</li>
+</ol>
+<p><img src="images/image115.png" alt=""></p>
+<ol>
+<li>Select and copy the generated Token.</li>
+</ol>
+<p><img src="images/image30.png" alt=""></p>
+<ol>
+<li>Open a new web browser tab and go to <a href="http://swagger-import.3scale[your" target="_blank">http://swagger-import.3scale[your</a> instance #].rhtechofficelatam.com/</li>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Access Token: paste the copied Token.</p>
+</li>
+<li>3Scale ID: 3scale</li>
+<li>Wildcard Domain: 3scale[your instance #].rhtechofficelatam.com</li>
+<li><p>Swagger File URL: <a href="http://stores-fis.3scale[your" target="_blank">http://stores-fis.3scale[your</a> instance #].rhtechofficelatam.com/api-docs</p>
+</li>
+<li><p>Click on the Import API button.</p>
+</li>
+</ol>
+<p><img src="images/image56.png" alt=""></p>
+<ol>
+<li>After a couple of seconds, the import should be done.</li>
+</ol>
+<p><img src="images/image86.png" alt=""></p>
+<ol>
+<li>Close the browser tab.</li>
+<li>Go back to  <a href="https://3scale-admin.3scale[your" target="_blank">https://3scale-admin.3scale[your</a> instance #].rhtechofficelatam.com.</li>
+<li>Click on the APIs tab.</li>
+<li>Expand Stores API.</li>
+<li>Click on the Create Application Plan link</li>
+</ol>
+<p><img src="images/image179.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Name: StoresPremiumPlan</p>
+</li>
+<li><p>System Name: storesPremiumPlan</p>
+</li>
+<li><p>Click on the Create Application Plan button.</p>
+</li>
+</ol>
+<p><img src="images/image176.png" alt=""></p>
+<ol>
+<li>Click on the Publish link.</li>
+</ol>
+<p><img src="images/image59.png" alt=""></p>
+<ol>
+<li>Click on the Developers tab.</li>
+<li>Click on the RHBank account.</li>
+</ol>
+<p><img src="images/image80.png" alt=""></p>
+<ol>
+<li>Click on the 3 Applications. Breadcrumb.</li>
+<li>Click on the Create Application link.</li>
+</ol>
+<p><img src="images/image144.png" alt=""></p>
+<ol>
+<li>Select the StoresPremiumPlan.</li>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Name: storesApp</p>
+</li>
+<li><p>Description: Stores Application</p>
+</li>
+<li><p>Click on the Create Application button.</p>
+</li>
+</ol>
+<p><img src="images/image169.png" alt=""></p>
+<ol>
+<li>Click on the Stores API link.</li>
+</ol>
+<p><img src="images/image35.png" alt=""></p>
+<ol>
+<li>Click on the Integration tab.</li>
+<li>Click on the  add the base URL of your API and save the configuration button.</li>
+</ol>
+<p><img src="images/image182.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Private Base URL: <a href="https://www.google.com/url?q=http://stores-fis.3scale1.rhtechofficelatam.com&amp;sa=D&amp;ust=1530635179401000" target="_blank">http://stores-fis.3scale[your instance #].rhtechofficelatam.com</a></p>
+</li>
+<li>Staging Public Base URL: <a href="https://www.google.com/url?q=https://stores-apicast-staging.gateway.3scale1.rhtechofficelatam.com:443&amp;sa=D&amp;ust=1530635179402000" target="_blank">https://stores-apicast-staging.gateway.3scale[your instance #].rhtechofficelatam.com:443</a></li>
+<li>Production Public Base URL: <a href="https://www.google.com/url?q=https://stores-apicast-production.gateway.3scale1.rhtechofficelatam.com:443&amp;sa=D&amp;ust=1530635179403000" target="_blank">https://stores-apicast-production.gateway.3scale</a><a href="https://www.google.com/url?q=https://stores-apicast-staging.gateway.3scale1.rhtechofficelatam.com:443&amp;sa=D&amp;ust=1530635179403000" target="_blank">[your instance #]</a><a href="https://www.google.com/url?q=https://stores-apicast-production.gateway.3scale1.rhtechofficelatam.com:443&amp;sa=D&amp;ust=1530635179403000" target="_blank">.rhtechofficelatam.com:443</a> </li>
+<li><p>API test GET request: /allstores</p>
+</li>
+<li><p>Click on the  Update &amp; test in Staging Environment button.</p>
+</li>
+</ol>
+<p><img src="images/image175.png" alt=""></p>
+<ol>
+<li>You should receive a successful validation.</li>
+<li>Click on the Back to Integration &amp; Configuration link.</li>
+</ol>
+<p><img src="images/image200.png" alt=""></p>
+<ol>
+<li>Click on the Promote v1 to Production button.</li>
+</ol>
+<p><img src="images/image46.png" alt=""></p>
+<ol>
+<li>Click on the ActiveDocs tab.</li>
+<li>Click on the Edit icon for the Stores API spec.</li>
+</ol>
+<p><img src="images/image171.png" alt=""></p>
+<ol>
+<li>Change the host attribute to: stores-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com</li>
+<li>For each of the four user_key parameters, add the following attribute: ,&quot;x-data-threescale-name&quot;: &quot;user_keys&quot;</li>
+</ol>
+<p><img src="images/image195.png" alt=""></p>
+<ol>
+<li>Scroll down to the bottom of the page and click on the Update Service button.</li>
+<li>Open a web browser tab and go to <a href="https://www.google.com/url?q=https://stores-apicast-production.gateway.3scale1.rhtechofficelatam.com&amp;sa=D&amp;ust=1530635179407000" target="_blank">https://stores-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com</a> and accept the SSL certificate.</li>
+<li>Close the tab and go back to the Stores API ActiveDoc.</li>
+<li>Expand the /allstores operation.</li>
+<li>Click on the user_key parameter field and select the storesApp user key.</li>
+<li>Click on the Try it out! button.</li>
+</ol>
+<p><img src="images/image161.png" alt=""></p>
+<ol>
+<li>You should receive a JSON document with a list of stores.</li>
+</ol>
+<p><img src="images/image47.png" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lab_6_-_developer_portal.html" class="navigation navigation-prev " aria-label="Previous page: Lab 6 - Developer Portal">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="lab_8_-_exposing_an_odata_service_with_jdv.html" class="navigation navigation-next " aria-label="Next page: Lab 8 - Exposing an OData Service with JDV">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Lab 7 - Exposing a SOAP Service with FIS","level":"1.11","depth":1,"next":{"title":"Lab 8 - Exposing an OData Service with JDV","level":"1.12","depth":1,"path":"lab_8_-_exposing_an_odata_service_with_jdv.md","ref":"lab_8_-_exposing_an_odata_service_with_jdv.md","articles":[]},"previous":{"title":"Lab 6 - Developer Portal","level":"1.10","depth":1,"path":"lab_6_-_developer_portal.md","ref":"lab_6_-_developer_portal.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"lab_7_-_exposing_a_soap_service_with_fis.md","mtime":"2018-07-03T18:06:42.431Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-03T18:07:44.660Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,595 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Lab 8 - Exposing an OData Service with JDV · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="lab_9_-_sample_application.html" />
+    
+    
+    <link rel="prev" href="lab_7_-_exposing_a_soap_service_with_fis.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    3ScaleAMPWorkshop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="red_hat_3scale_api_manager_platform_introduction.html">
+            
+                <a href="red_hat_3scale_api_manager_platform_introduction.html">
+            
+                    
+                    Red Hat 3Scale API Manager Platform Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="notes.html">
+            
+                <a href="notes.html">
+            
+                    
+                    Notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="lab_0_-_setup.html">
+            
+                <a href="lab_0_-_setup.html">
+            
+                    
+                    Lab 0 - Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="lab_1_-_installation.html">
+            
+                <a href="lab_1_-_installation.html">
+            
+                    
+                    Lab 1 - Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="lab_2_-_create_your_first_api.html">
+            
+                <a href="lab_2_-_create_your_first_api.html">
+            
+                    
+                    Lab 2 - Create your first API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="lab_3_-_rate_limiting.html">
+            
+                <a href="lab_3_-_rate_limiting.html">
+            
+                    
+                    Lab 3 - Rate Limiting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="lab_4_-_api_documentation.html">
+            
+                <a href="lab_4_-_api_documentation.html">
+            
+                    
+                    Lab 4 - API Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="lab_5_-_analytics.html">
+            
+                <a href="lab_5_-_analytics.html">
+            
+                    
+                    Lab 5 - Analytics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="lab_6_-_developer_portal.html">
+            
+                <a href="lab_6_-_developer_portal.html">
+            
+                    
+                    Lab 6 - Developer Portal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="lab_7_-_exposing_a_soap_service_with_fis.html">
+            
+                <a href="lab_7_-_exposing_a_soap_service_with_fis.html">
+            
+                    
+                    Lab 7 - Exposing a SOAP Service with FIS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.12" data-path="lab_8_-_exposing_an_odata_service_with_jdv.html">
+            
+                <a href="lab_8_-_exposing_an_odata_service_with_jdv.html">
+            
+                    
+                    Lab 8 - Exposing an OData Service with JDV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="lab_9_-_sample_application.html">
+            
+                <a href="lab_9_-_sample_application.html">
+            
+                    
+                    Lab 9 - Sample Application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="lab_10_-_securing_apis_with_oauth2.html">
+            
+                <a href="lab_10_-_securing_apis_with_oauth2.html">
+            
+                    
+                    Lab 10 - Securing APIs with OAuth2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Lab 8 - Exposing an OData Service with JDV</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="lab-8-exposing-an-odata-service-with-jdv">Lab 8 - Exposing an OData Service with JDV </h1>
+<table>
+<thead>
+<tr>
+<th><img src="images/image26.png" alt="RH_Icon_Compass_Button.png"></th>
+<th>In this lab you will deploy an OData service based on a JBoss DataVirtualization for Openshift (JDV) virtual database (VDB).  This VDB has a virtual view that retrieves data from two databases&#x2019; tables (MySQL and PostreSQL) and present them as a single SQL ANSI table. Then, out of the box, this view is exposed in JDV as an OData REST service. You can find more info about JDV here:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Open a web browser and go to <a href="https://www.google.com/url?q=https://threescale.3scale.rhtechofficelatam.com:8443/console/&amp;sa=D&amp;ust=1530635179412000" target="_blank">https://threescale.3scale[your instance #].rhtechofficelatam.com:8443/console/</a> </li>
+<li>Login as admin/admin</li>
+<li>Select the Stock API project.</li>
+<li>Click on the Add to Project button.</li>
+</ol>
+<p><img src="images/image180.png" alt=""></p>
+<ol>
+<li>Enter stock-api in the Browse Catalog search field.</li>
+<li>Click on the Select button in the found template.</li>
+</ol>
+<p><img src="images/image189.png" alt=""></p>
+<ol>
+<li>Set the Custom http Route Hostname field to: stock-api.3scale[your instance #].rhtechofficelatam.com.</li>
+<li>Scroll down to the bottom of the page and click on the Create button.</li>
+<li>Click on the Continue to overview link.</li>
+<li>In ~5min, a JBoss DataVirtualization service will be deployed to OpenShift along with two databases: a MySQL and a PostgreSQL instance.</li>
+</ol>
+<p><img src="images/image100.png" alt=""></p>
+<ol>
+<li>When the three circles are blue, open a new web browser tab and go to <a href="https://www.google.com/url?q=http://stock-api.3scale1.rhtechofficelatam.com/odata4/Stock-API/FederatedStock/stock?$format%3DJSON&amp;sa=D&amp;ust=1530635179414000" target="_blank">http://stock-api.3scale[your instance #].rhtechofficelatam.com/odata4/Stock-API/FederatedStock/stock?$format=JSON</a> </li>
+</ol>
+<p><img src="images/image63.png" alt=""></p>
+<ol>
+<li>You should receive JSON document with Stock information coming from the Virtual DataBase(VDB) deployed in the JBoss DataVirtualization container.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><img src="images/image34.png" alt="general_info_polished.png"></th>
+<th>JDV is a data integration tool that allows you to connect to different data sources in real time and present a unified SQL view to the data consumer.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Go to <a href="https://www.google.com/url?q=https://3scale-admin.3scale1.rhtechofficelatam.com&amp;sa=D&amp;ust=1530635179417000" target="_blank">https://3scale-admin.3scale[your instance #].rhtechofficelatam.com</a> </li>
+<li>Login as admin/admin</li>
+<li>Click on the APIs tab.</li>
+<li>Click on the Create Service link.</li>
+</ol>
+<p><img src="images/image173.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Name: Stock API</p>
+</li>
+<li>System Name: stock-api</li>
+<li>Description: Stock API</li>
+</ol>
+<p><img src="images/image156.png" alt=""></p>
+<ol>
+<li>Scroll down to the bottom of the page and click on the Create Service button.</li>
+<li>Click on the Create Application Plan link.</li>
+</ol>
+<p><img src="images/image184.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Name: StockPremiumPlan</p>
+</li>
+<li><p>System Name: stockPremiumPlan</p>
+</li>
+<li><p>Click on the Create Application Plan button.</p>
+</li>
+</ol>
+<p><img src="images/image150.png" alt=""></p>
+<ol>
+<li>Click on the Publish link.</li>
+<li>Click on the Developers tab.</li>
+<li>Click on the RHBank account.</li>
+</ol>
+<p><img src="images/image125.png" alt=""></p>
+<ol>
+<li>Click on the  4 Applications breadcrumb.</li>
+<li>Click on the Create Application link.</li>
+</ol>
+<p><img src="images/image127.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Application Plan: StockPremiumPlan</p>
+</li>
+<li>Name: StockApp</li>
+<li><p>Description: Stock Application</p>
+</li>
+<li><p>Click on the Create Application button.</p>
+</li>
+</ol>
+<p><img src="images/image143.png" alt=""></p>
+<ol>
+<li>Click on the Stock API link.</li>
+<li>Click on the Integration tab.</li>
+<li>Click on the add the base URL of your API and save the configuration button.</li>
+</ol>
+<p><img src="images/image137.png" alt=""></p>
+<ol>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Private Base URL: <a href="https://www.google.com/url?q=http://stock-api.3scale1.rhtechofficelatam.com&amp;sa=D&amp;ust=1530635179422000" target="_blank">http://stock-api.3scale[your instance #].rhtechofficelatam.com</a> </p>
+</li>
+<li>Staging Public Base URL: <a href="https://stock-apicast-staging.gateway.3scale[your" target="_blank">https://stock-apicast-staging.gateway.3scale[your</a> instance #].rhtechofficelatam.com:443</li>
+<li><p>Production Public Base URL: <a href="https://www.google.com/url?q=https://stock-apicast-production.gateway.3scale1.rhtechofficelatam.com:443&amp;sa=D&amp;ust=1530635179423000" target="_blank">https://stock-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com:443</a></p>
+</li>
+<li><p>Click on the edit icon next to the GET operation under Mapping Rules.</p>
+</li>
+<li>Enter /odata4/Stock-API/FederatedStock/stock as the Pattern.</li>
+<li>Enter /odata4/Stock-API/FederatedStock/stock?$format=JSON in the API test GET request.</li>
+<li>Click on the Update &amp; test in the Staging Environment.</li>
+</ol>
+<p><img src="images/image172.png" alt=""></p>
+<ol>
+<li>Click on the Back to Integration &amp; Configuration link.</li>
+<li>Click on the  Promote v.1 to Production button.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><img src="images/image34.png" alt="general_info_polished.png"></th>
+<th>OData URLs in JDV are formed using the following syntax:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Click on the ActiveDocs tab.</li>
+</ol>
+<p><img src="images/image81.png" alt=""></p>
+<ol>
+<li>Click on the Create a new spec link.</li>
+<li><p>Enter the following values:</p>
+</li>
+<li><p>Name: Stock API</p>
+</li>
+<li><p>System Name: stockApiSpec</p>
+</li>
+<li><p>Open a new web browser tab and go to <a href="https://www.google.com/url?q=https://raw.githubusercontent.com/pszuster/3ScaleTD/master/Stock/stock-api-swagger.json&amp;sa=D&amp;ust=1530635179428000" target="_blank">https://raw.githubusercontent.com/pszuster/3ScaleTD/master/Stock/stock-api-swagger.json</a></p>
+</li>
+<li>Copy the contents of the json file (Ctrl+A, Ctrl+C).</li>
+<li>Close the browser tab.</li>
+<li>Paste the json file to the  API JSON Spec field.</li>
+<li>Change the host attribute to <a href="https://www.google.com/url?q=https://stock-apicast-production.gateway.3scale1.rhtechofficelatam.com:443&amp;sa=D&amp;ust=1530635179429000" target="_blank">stock-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com</a>,  to match your instance #.</li>
+</ol>
+<p><img src="images/image96.png" alt=""></p>
+<ol>
+<li>Scroll down to the bottom of the page and click on the Create Service button.</li>
+<li>Click on the Publish button.</li>
+</ol>
+<p><img src="images/image153.png" alt=""></p>
+<ol>
+<li>Open a web browser tab.</li>
+<li>Go to <a href="https://stock-apicast-production.gateway.3scale[your" target="_blank">https://stock-apicast-production.gateway.3scale[your</a> instance #].rhtechofficelatam.com/odata4/Stock-API/FederatedStock/stock</li>
+<li>Accept the SSL Certificate.</li>
+<li>Close the tab and go back to 3Scale&#x2019;s tab.</li>
+<li>Expand the /stock operation.</li>
+<li>Enter JSON in the $format field.</li>
+<li>Click on the user_key field and select the StockApp user key.</li>
+<li>Click on the Try it out! button.</li>
+</ol>
+<p><img src="images/image109.png" alt=""></p>
+<ol>
+<li>You should receive an OData JSON document.</li>
+<li>Enter &#x201C;productid eq 1&#x201D; in the $filter field.</li>
+<li>Click on the Try it out! button.</li>
+</ol>
+<p><img src="images/image158.png" alt=""></p>
+<ol>
+<li>You should receive an OData filtered JSON document.</li>
+</ol>
+<p>| <img src="images/image34.png" alt="general_info_polished.png"> | The $filter field specifies a &#x201C;WHEN&#x201D; condition for the query, &#x201C;productid&#x201D; is one of the columns of the virtual view, and &#x201C;eq 1&#x201D; means &#x201C;=1&#x201D;. |
+| --- | --- |</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lab_7_-_exposing_a_soap_service_with_fis.html" class="navigation navigation-prev " aria-label="Previous page: Lab 7 - Exposing a SOAP Service with FIS">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="lab_9_-_sample_application.html" class="navigation navigation-next " aria-label="Next page: Lab 9 - Sample Application">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Lab 8 - Exposing an OData Service with JDV","level":"1.12","depth":1,"next":{"title":"Lab 9 - Sample Application","level":"1.13","depth":1,"path":"lab_9_-_sample_application.md","ref":"lab_9_-_sample_application.md","articles":[]},"previous":{"title":"Lab 7 - Exposing a SOAP Service with FIS","level":"1.11","depth":1,"path":"lab_7_-_exposing_a_soap_service_with_fis.md","ref":"lab_7_-_exposing_a_soap_service_with_fis.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"lab_8_-_exposing_an_odata_service_with_jdv.md","mtime":"2018-07-03T18:06:42.431Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-03T18:07:44.660Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
