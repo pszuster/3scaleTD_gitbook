@@ -5,6 +5,8 @@
 
 
 * Open a web browser and go to https://{{ book.hostname }}:8443 
+* Expand the **Advanced** link and click on the **Proceed to {{ book.hostname }}** link.
+
 * Login as admin/admin.
 * Click on the **3scale API Management **icon in the Catalog.
 
