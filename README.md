@@ -1,6 +1,4 @@
-
-
-![3Scale\_byRH\_Logo\_RGB.png](images/image60.png)
+![](/assets/Logo_RH_3scale-APIManagement_RGB_black.png)
 
 Hands-on Labs
 
