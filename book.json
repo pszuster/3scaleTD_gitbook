@@ -1,6 +1,8 @@
 {
     "plugins": ["hints"],
     "variables": {
-	    "guid": "1234"
+	    "guid": "1234",
+	    "hostname": "hostname_value",
+	    "suffix": "suffix_value"
     }
 }
