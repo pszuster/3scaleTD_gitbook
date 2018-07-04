@@ -4,7 +4,7 @@
 | --- | --- |
 
 
-* Open a web browser and go to https://{{) book.hostname }}:8443 
+* Open a web browser and go to https://{{ book.hostname }}:8443 
 * Login as admin/admin.
 * Click on the **3scale API Management **icon in the Catalog.
 
