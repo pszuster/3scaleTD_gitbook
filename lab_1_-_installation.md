@@ -3,7 +3,7 @@
 | ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab, you will deploy a Red Hat 3Scale API Management Platform (AMP) instance to an Openshift Container Platform (OCP) cluster. |
 | --- | --- |
 
-1.  Open a web browser and go to https://threescale-{{ book.guid }}.generic.opentlc.com:8443 
+1.  Open a web browser and go to https://{{ book.hostname }}:8443 
 2.  Login as admin/admin.
 3.  Click on the New Project button
 
