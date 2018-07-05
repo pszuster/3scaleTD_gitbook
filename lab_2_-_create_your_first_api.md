@@ -1,10 +1,10 @@
 # Lab 2 - Create your first API {#lab-2-create-your-first-api}
 
-| ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab, you will create your first API in 3Scale AMP, exposing a REST JEE application which is running in a JBoss Enterprise Application Platform (EAP) container in the same OCP cluster. |
+| ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab, you will create your first API in 3Scale API Management, exposing a REST JEE application which is running in a JBoss Enterprise Application Platform (EAP) container in the same OCP cluster. |
 | --- | --- |
 
 1.  Open a new web browser tab.
-2.  Go to [https://3scale-admin.3scale[ your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://3scale-admin.3scale1.rhtechofficelatam.com&sa=D&ust=1530635179293000).
+2.  Go to https://3scale-admin.3scale.{{ book.suffix }}.
 3.  Login as admin/admin
 4.  If a “connection not private” warning appears, click on Proceed to ..
 5.  Login with admin/admin.

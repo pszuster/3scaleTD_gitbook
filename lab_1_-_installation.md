@@ -1,4 +1,4 @@
-![](images/Selection_315.png)# Lab 1 - Installation {#lab-1-installation}
+![](assets/create-3scale-project-completed.png)![](images/Selection_315.png)# Lab 1 - Installation {#lab-1-installation}
 
 | ![RH\_Icon\_Compass\_Button.png](images/image26.png) | In this lab, you will deploy a Red Hat 3Scale API Management Platform \(AMP\) instance to an Openshift Container Platform \(OCP\) cluster. |
 | --- | --- |
@@ -35,7 +35,7 @@
 
 * Click on the "**Continue to the project overview"** link.
 
-![](/assets/3scale-project-created.png)
+![](assets/create-3scale-project-completed.png)
 
 * After ~5 minutes, all the pods should have a blue circle, meaning 3Scale AMP is up and running.
 ![](images/Selection_315.png)
