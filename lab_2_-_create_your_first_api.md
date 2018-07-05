@@ -29,11 +29,13 @@ Notice there is a pre-built API called “API” that is useful for learning/tes
 ![](images/image17.png)
 
 * Enter the following values:
+
 | Parameter | Value |
 | --- | --- |
 | **Name** | Products |
 | **System name** | products\_system |
 | ** Description** | RHMart Products API |
+
 
 ![](images/image33.png)
 
