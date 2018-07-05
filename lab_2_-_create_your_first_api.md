@@ -113,11 +113,12 @@ Notice there is one default application for the built-in “API” service.
 
 * Click on the **Create Application** link.
 * Enter the following values:
+
 | Parameter | Value |
 | --- | --- |
-|**Application Plan** | ProductsBasicPlan |
-|**Name** | ProductsApp |
-|**Description** | Products Application |
+| **Application Plan** | ProductsBasicPlan |
+| **Name** | ProductsApp |
+| **Description** | Products Application |
 
  
 * Click on the **Create Application** button.
