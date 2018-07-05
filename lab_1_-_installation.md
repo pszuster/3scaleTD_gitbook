@@ -1,7 +1,7 @@
 # Lab 1 - Installation {#lab-1-installation}
 
 {% hint style='info' %}
-n this lab, you will deploy a Red Hat 3Scale API Management Platform \(AMP\) instance to an Openshift Container Platform \(OCP\) cluster. 
+In this lab, you will deploy a Red Hat 3Scale API Management Platform \(AMP\) instance to an Openshift Container Platform \(OCP\) cluster. 
 {% endhint %}
 
 * Open a web browser and go to https://{{ book.hostname }}:8443 
