@@ -35,6 +35,7 @@ Notice there is a pre-built API called “API” that is useful for learning/tes
 | **Name** | Products |
 | **System name** | products\_system |
 | ** Description** | RHMart Products API |
+*
 
 ![](images/image33.png)
 
