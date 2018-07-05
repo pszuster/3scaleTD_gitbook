@@ -144,6 +144,7 @@ Notice there is one default application for the built-in “API” service.
 ![](images/image49.png)
 
 * Enter the following values:
+
 | Parameter | Value |
 | --- | --- |
 | **Friendly Name** | Get Product |
