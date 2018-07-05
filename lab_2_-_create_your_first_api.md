@@ -146,9 +146,9 @@ Notice there is one default application for the built-in “API” service.
 * Enter the following values:
 | Parameter | Value |
 | --- | --- |
-|**Friendly Name** | Get Product |
-|**System Name** | product/get |
-|**Description** | Get a product by ID |
+| **Friendly Name** | Get Product |
+| **System Name** | product/get |
+| **Description** | Get a product by ID |
 
 
 * Click on the **Create Method** button.
