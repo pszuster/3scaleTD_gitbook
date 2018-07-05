@@ -35,7 +35,7 @@ Notice there is a pre-built API called “API” that is useful for learning/tes
 | **Name** | Products |
 | **System name** | products\_system |
 | ** Description** | RHMart Products API |
-*
+
 
 ![](images/image33.png)
 
@@ -50,17 +50,19 @@ Notice there is a pre-built API called “API” that is useful for learning/tes
 ![](images/image186.png)
 
 * Enter the following values:
+
 | Parameter | Value |
 | --- | --- |
 | **Name** | ProductsBasicPlan |
 | **System name** | products/basic |
 
 
+
 * Click on the **Create Application Plan** button.
 
 ![](images/image113.png)
 
-* Click on the **Create Application Pla**n link.
+* Click on the **Create Application Plan** link.
 
 ![](images/image155.png)
 
@@ -91,9 +93,10 @@ Plans are used for granting access to specific APIs and endpoints, limiting traf
 ![](images/image52.png)
 
 * Enter the following values:
+
 | Parameter | Value |
 | --- | --- |
-|**Username** | rhbankdev |
+| **Username** | rhbankdev |
 | **Email** | developer@rhbank.com |
 | **Password** | rhbank |
 | **Organization** | RHBank |
