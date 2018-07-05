@@ -24,7 +24,7 @@ Notice there is a pre-built API called “API” that is useful for learning/tes
 
 ![](images/image43.png)
 
-* Click on the Create Service link.
+* Click on the **Create Service** link.
 
 ![](images/image17.png)
 
@@ -78,7 +78,6 @@ Notice there is a pre-built API called “API” that is useful for learning/tes
 
 ![](images/image98.png)
 
-* Select the **ProductsBasicPlan** as **Default Plan**.
 * Click on the **Publish** link for both **Basic** and **Premium** plans.
 
 ![](images/image12.png)
@@ -168,10 +167,10 @@ Notice there is one default application for the built-in “API” service.
 
 * Click on any of the “**Add a Mapping rule**” links.
 * Click on the **edit** icon next to the **GET** mapping rule.
-* Enter `/rest/services/product/` as the **Pattern**.
+* Enter `/rest/services/product/{id}` as the **Pattern**.
 * Select **product/get** as **Method**.
 
-![](images/image117.png)
+![](assets/Selection_317.png)
 
 * Click on the **Add Mapping Rule** link.
 * Repeat this procedure for the following values:
@@ -179,16 +178,15 @@ Notice there is one default application for the built-in “API” service.
 | Verb | Pattern | Method |
 | --- | --- | --- |
 | POST | /rest/services/product | product/create |
-| DELETE | /rest/services/product/ | product/delete |
-| GET | /rest/services/products | product/getall |
+| DELETE | /rest/services/product/{id} | product/delete |
+| GET | /rest/services/allproducts | product/getall |
 
-![](images/image85.png)
+![](assets/Selection_318.png)
 
-* Open a new web browser tab, and go to https://{{ book.hostname }}
-* Click on the **Products API** project.
+* Open a new web browser tab, and go to https://{{ book.hostname }}/console/project/products-api/overview
 
 ![](images/image163.png)
-* Take note of the Products API http route. It should be http://producs.{{ book.suffix }}
+* Take note of the Products API http route. It should be http://products.{{ book.suffix }}
 
 ![](images/image87.png)
 
@@ -201,17 +199,16 @@ The Products API is a restful service built on Java \(JAX-RS\), deployed on JBos
 
 | Parameter | Value |
 | --- | --- |
-|**Private Base URL** | http://producs.{{ book.suffix }} |
+|**Private Base URL** | http://products.{{ book.suffix }} |
 |**Staging Public Base URL** | https://products-apicast-staging.3scale.{{ book.suffix }}:443|
 |**Production Public Base URL** | https://products-apicast-production.3scale.{{ book.suffix }}:443|
 
-![](images/image111.png)
+![](assets/Selection_319.png)
 
 * Scroll down to **API Test GET request**.
 * Enter  `/rest/services/product/1`.
 * Click on the **Update & Test in Staging Environment**.
-
-![](images/image124.png)
+![](assets/Selection_321.png)
 
 * You should get a success message.
 * Click on  the **Back to Integration & Configuration** link.
@@ -220,10 +217,10 @@ The Products API is a restful service built on Java \(JAX-RS\), deployed on JBos
 
 * Select the URL after “curl” and copy it.
 
-![](images/image42.png)
+![](assets/Selection_322.png)
 
 * Open a new web browser tab, and paste the URL.
 * You should get a json document describing a product.
 
-![](images/image164.png)
+![](assets/Selection_323.png)
 
