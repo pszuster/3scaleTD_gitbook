@@ -28,7 +28,7 @@
 | Parameter | Value |
 | :--- | :--- |
 | ADMIN\_PASSWORD | admin |
-| WILDCARD\_DOMAIN | {{ book.suffix }} |
+| WILDCARD\_DOMAIN | 3scale.{{ book.suffix }} |
 | MASTER\_PASSWORD | master |
 
 * Click on the **Create** button.
