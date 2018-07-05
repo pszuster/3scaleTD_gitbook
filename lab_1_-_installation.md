@@ -26,7 +26,7 @@
 * Scroll down and complete the following values:
 
 | Parameter | Value |
-| :--- | :--- |
+| --- | --- |
 | ADMIN\_PASSWORD | admin |
 | WILDCARD\_DOMAIN | 3scale.{{ book.suffix }} |
 | MASTER\_PASSWORD | master |
