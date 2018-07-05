@@ -178,45 +178,45 @@ Notice there is one default application for the built-in “API” service.
 ![](images/image85.png)
 
 * Open a new web browser tab, and go to https://{{ book.hostname }}
-2. Click on the Products API project.
+* Click on the **Products API** project.
 
 ![](images/image163.png)
-
-1. Take note of the Products API http route. It should be [http://products.3scale\[](http://products.3scale[) your instance \#\].rhtechofficelatam.com
+* Take note of the Products API http route. It should be http://producs.{{ book.suffix }}
 
 ![](images/image87.png)
 
-| ![general\_info\_polished.png](images/image34.png) | The Products API is a restful service built on Java \(JAX-RS\), deployed on JBoss EAP and connected to a PostgreSQL DB. |
+{% hint style='info' %}
+The Products API is a restful service built on Java \(JAX-RS\), deployed on JBoss EAP and connected to a PostgreSQL DB.
+{% endhint %}
+
+* Go back to 3Scale web browser tab.
+* Enter the following values:
+
+| Parameter | Value |
 | --- | --- |
-
-
-1. Go back to 3Scale web browser tab.
-2. Enter the following values:
-
-3. Private Base URL:  [http://products.3scale\[](http://products.3scale[) your instance \#\].rhtechofficelatam.com
-
-4. Staging Public Base URL: [https://products-apicast-staging.gateway.3scale\[](https://products-apicast-staging.gateway.3scale[) your instance \#\].rhtechofficelatam.com:443
-5. Production Public Base URL: [https://products-apicast-production.gateway.3scale\[](https://products-apicast-production.gateway.3scale[) your instance \#\].rhtechofficelatam.com:443
+|**Private Base URL** | http://producs.{{ book.suffix }} |
+|**Staging Public Base URL** | https://products-apicast-staging.3scale.{{ book.suffix }}:443|
+|**Production Public Base URL** | https://products-apicast-production.3scale.{{ book.suffix }}:443|
 
 ![](images/image111.png)
 
-1. Scroll down to the API Test GET request.
-2. Enter  /rest/services/product/1.
-3. Click on the Update & Test in Staging Environment.
+* Scroll down to **API Test GET request**.
+* Enter  `/rest/services/product/1`.
+* Click on the **Update & Test in Staging Environment**.
 
 ![](images/image124.png)
 
-1. You should get a success message.
-2. Click on  the Back to Integration & Configuration link.
+* You should get a success message.
+* Click on  the **Back to Integration & Configuration** link.
 
 ![](images/image69.png)
 
-1. Select the URL after “curl” and copy it.
+* Select the URL after “curl” and copy it.
 
 ![](images/image42.png)
 
-1. Open a new web browser tab, and paste the URL.
-2. You should get a json document describing a product.
+* Open a new web browser tab, and paste the URL.
+* You should get a json document describing a product.
 
 ![](images/image164.png)
 
