@@ -100,52 +100,56 @@ Plans are used for granting access to specific APIs and endpoints, limiting traf
 ![](images/image38.png)
 
 * Click on the **1 Application** breadcrumb.
-* Notice there is one default application for the built-in “API” service.
+{% hint style='info' %}
+Notice there is one default application for the built-in “API” service.
+{% endhint %}
 
 ![](images/image3.png)
 
-1. Click on the Create Application link.
-2. Enter the following values:
+* Click on the **Create Application** link.
+* Enter the following values:
+| Parameter | Value |
+| --- | --- |
+|**Application Plan** | ProductsBasicPlan |
+|**Name** | ProductsApp |
+|**Description** | Products Application |
 
-3. Application Plan: ProductsBasicPlan
-
-4. Name: ProductsApp
-5. Description: Products Application
-
-6. Click on the Create Application button.
+ 
+* Click on the **Create Application** button.
 
 ![](images/image145.png)
 
-1. Click on the APIs tab.
-2. Expand the Products API and click on Integration.
+* Click on the **APIs** tab.
+* Expand the **Products** API and click on **Integration**.
 
 ![](images/image51.png)
 
-1. Click on the add the base URL of your API and save the configuration button.
+* Click on the **add the base URL of your API and save the configuration** button.
 
 ![](images/image108.png)
 
-1. Expand the Mapping Rules section.
-2. Click on the Define Metric/Method  link.
+* Expand the **Mapping Rules** section.
+* Click on the **Define Metric/Method**  link.
 
 ![](images/image2.png)
 
-1. Click on the New Method link in the Methods section.
+* Click on the **New Method** link in the **Methods** section.
 
 ![](images/image49.png)
 
-1. Enter the following values:
+* Enter the following values:
+| Parameter | Value |
+| --- | --- |
+|**Friendly Name** | Get Product |
+|**System Name** | product/get |
+|**Description** | Get a product by ID |
 
-2. Friendly Name: Get Product
 
-3. System Name: product/get
-4. Description: Get a product by ID.
-
-5. Click on the Create Method button.
+* Click on the **Create Method** button.
 
 ![](images/image123.png)
 
-1. Repeat this procedure for the following methods:
+* Repeat this procedure for the following methods:
 
 | Friendly Name | System Name | Description |
 | --- | --- | --- |
@@ -155,15 +159,15 @@ Plans are used for granting access to specific APIs and endpoints, limiting traf
 
 ![](images/image136.png)
 
-1. Click on any of the “Add a Mapping rule” links.
-2. Click on the edit icon next to the GET mapping rule.
-3. Enter /rest/services/product/ as the Pattern.
-4. Select product/get as Method.
+* Click on any of the “**Add a Mapping rule**” links.
+* Click on the **edit** icon next to the **GET** mapping rule.
+* Enter `/rest/services/product/` as the **Pattern**.
+* Select **product/get** as **Method**.
 
 ![](images/image117.png)
 
-1. Click on the Add Mapping Rule link.
-2. Repeat this procedure for the following values:
+* Click on the **Add Mapping Rule** link.
+* Repeat this procedure for the following values:
 
 | Verb | Pattern | Method |
 | --- | --- | --- |
@@ -173,7 +177,7 @@ Plans are used for granting access to specific APIs and endpoints, limiting traf
 
 ![](images/image85.png)
 
-1. Open a new web browser tab, and go to [https://threescale.3scale\[your instance \#\].rhtechofficelatam.com:8443/console/](https://www.google.com/url?q=https://threescale.3scale1.rhtechofficelatam.com:8443/console/&sa=D&ust=1530635179318000) 
+* Open a new web browser tab, and go to https://{{ book.hostname }}
 2. Click on the Products API project.
 
 ![](images/image163.png)
