@@ -6,7 +6,12 @@ In this lab you will generate some load for the API and then check out the analy
 
 * Open a web browser and go to https://3scale-admin.3scale.{{ book.suffix }}
 * Login as admin/admin.
-* 
+* Click on the **Applications** tab.
+* Click on the **ProductsApp** application.
+* Copy the **User Key** under **API Credentials**.
+
+![](assets/Selection_337.png)
+
 * Click on the **APIs** tab.
 * Click on the **ActiveDocs** tab.
 
@@ -17,16 +22,17 @@ In this lab you will generate some load for the API and then check out the analy
 ![](images/image10.png)
 
 * Expand the **POST** method.
-* Click on the user_key field, and select the second RHBank’s App user key.
+* Click on the red circle icon with the exclamation mark.
+* Paste the api_key in the **value** field.
+* Click on the **Authorize** button.
 
-![](images/image76.png)
-
-1.  Click on the Model next to the body field.
+![](assets/Selection_340.png)
+*  Click on the Model next to the body field.
 
 ![](images/image5.png)
 
-1.  Remove the productid field from the sample json document.
-2.  Click on the Try it out! button.
+* Remove the **productid** field from the sample json document.
+* Click on the **Try it out!** button.
 
 ![](images/image192.png)
 
