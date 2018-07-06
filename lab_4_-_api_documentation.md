@@ -30,19 +30,33 @@ In this lab, you will generate and test an ActiveDocs documentation for the API 
 
 ![](assets/Selection_325.png)
 * Complete the form with the following values:
+| Parameter | Value |
+| --- | --- |
+| **First Name** | Username |
+| **Last Name** | Lastname |
+| **Email** | user@mail.com |
+| **Password** | password |
+| **Confirm Password** | password |
+* Click on the **Register** button.
 
+![](assets/Selection_326.png)
 
-*  Select **File** -&gt; **Import URL**.
-*  Enter the following URL: http://products.{{ book.suffix }}/rest/swagger.yaml 
-*  Click **OK**.
+* Click on the **Import API** button.
 
-![](images/image79.png)
+![](assets/Selection_327.png)
 
-*  In the YAML editor, make the following change:
+* Enter the following URL:  http://products.{{ book.suffix }}/rest/swagger.yaml
+* Click on the **Import API** button.
 
-1.  Go to line #7 and change host to: products-apicast-staging.gateway.3scale[your instance #].rhtechofficelatam.com:443
+![](assets/Selection_328.png)
+* Click on the **Edit API** button.
 
-1.  For each of the available operations, you will add a query parameter (user_key) which contains the required authentication for 3Scale.
+![](assets/Selection_329.png)
+{% hint style='info' %}
+For each of the available operations, you will add a query parameter (user_key) which will be used by 3scale to receive the API Key for authentication.
+{% endhint %}
+
+1.  
 2.  Go to line #25 and add the following:
 
 |       - name: &quot;user_key&quot; |
