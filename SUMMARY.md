@@ -1,8 +1,8 @@
 # Summary
 
-* [3ScaleAMPWorkshop](README.md)
 * [Red Hat 3Scale API Manager Platform Introduction](red_hat_3scale_api_manager_platform_introduction.md)
 * [Notes](notes.md)
+* [3ScaleAMPWorkshop](README.md)
 * [Lab 0 - Setup](lab_0_-_setup.md)
 * [Lab 1 - Installation](lab_1_-_installation.md)
 * [Lab 2 - Create your first API](lab_2_-_create_your_first_api.md)
@@ -13,5 +13,5 @@
 * [Lab 7 - Exposing a SOAP Service with FIS](lab_7_-_exposing_a_soap_service_with_fis.md)
 * [Lab 8 - Exposing an OData Service with JDV](lab_8_-_exposing_an_odata_service_with_jdv.md)
 * [Lab 9 - Sample Application](lab_9_-_sample_application.md)
-* [](.md)
 * [Lab 10 - Securing APIs with OAuth2](lab_10_-_securing_apis_with_oauth2.md)
+
