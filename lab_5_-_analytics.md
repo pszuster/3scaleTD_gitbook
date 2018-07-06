@@ -1,21 +1,23 @@
 # Lab 5 - Analytics {#lab-5-analytics}
 
-| ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab you will generate some load for the API and then check out the analytics graphics to understand API’s traffic. |
-| --- | --- |
+{% hint style='info' %}
+In this lab you will generate some load for the API and then check out the analytics graphics to understand API’s traffic.
+{% endhint %}
 
-1.  Open a web browser and go to https://3scale-admin.3scale[your instance #].rhtechofficelatam.com
-2.  Login as admin/admin
-3.  Click on the APIs tab.
-4.  Click on the ActiveDocs tab.
+* Open a web browser and go to https://3scale-admin.3scale.{{ book.suffix }}
+* Login as admin/admin.
+* 
+* Click on the **APIs** tab.
+* Click on the **ActiveDocs** tab.
 
 ![](images/image71.png)
 
-1.  Click on the Products spec.
+* Click on the **Products** spec.
 
 ![](images/image10.png)
 
-1.  Expand the POST method.
-2.  Click on the user_key field, and select the second RHBank’s App user key.
+* Expand the **POST** method.
+* Click on the user_key field, and select the second RHBank’s App user key.
 
 ![](images/image76.png)
 
