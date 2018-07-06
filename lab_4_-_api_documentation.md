@@ -25,7 +25,13 @@ In this lab, you will generate and test an ActiveDocs documentation for the API 
 
 ![](images/image75.png)
 
-* Open a new web browser tab, and go to [http://editor.swagger.io/](https://www.google.com/url?q=http://editor.swagger.io/&sa=D&ust=1530635179340000) 
+* Open a new web browser tab, and go to http://apicurio-studio.{{ book.suffix }}
+* Click on the **Register** link.
+
+![](assets/Selection_325.png)
+* Complete the form with the following values:
+
+
 *  Select **File** -&gt; **Import URL**.
 *  Enter the following URL: http://products.{{ book.suffix }}/rest/swagger.yaml 
 *  Click **OK**.
@@ -59,7 +65,7 @@ In this lab, you will generate and test an ActiveDocs documentation for the API 
 1.  Click on File -&gt; Download JSON.
 2.  Save the JSON file to your disk.
 3.  Close the browser tab.
-4.  Go back to the 3Scale web browser tab.
+4.  Go back to the 3Scale web browser ta3b.
 5.  Open the downloaded swagger.json file with any text editor, and copy its contents.
 6.  Paste it into the API JSON Spec field.
 
