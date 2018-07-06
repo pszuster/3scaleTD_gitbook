@@ -118,18 +118,11 @@ You will add a "security scheme" to the API to secure it using API Keys.
 * Click on the **Authorize** button.
 
 ![](assets/Selection_339.png)
-
-2.  Go to the **Parameters** section.
-3.  Click on the user_key value field.
-4.  Select the ProductsApp user_key.
-
-![](images/image116.png)
-
-1.  Click on the Try it Out! Button.
-2.  You should get a successful response like the following:
+* Click on the Try it Out! Button.
+* You should get a successful response like the following:
 
 ![](images/image74.png)
 
-1.  If you get a “No Content” error, copy the displayed URL, open a new tab and paste the URL.
-2.  Accept the certificate.
-3.  Close the tab and test the API again.
+* If you get a “**No Content**” error, copy the **Request URL**, open a new tab and paste the URL.
+* Accept the certificate.
+* Close the tab and test the API again.
