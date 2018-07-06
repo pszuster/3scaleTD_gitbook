@@ -70,6 +70,7 @@ You will add a "security scheme" to the API to secure it using API Keys.
 | **Key Location** | Query Parameter |
 | **Name** | user_key |
 
+
 * Click on the **OK** button.
 ![](assets/Selection_331.png)
 
@@ -83,7 +84,7 @@ You will add a "security scheme" to the API to secure it using API Keys.
 ![](assets/Selection_333.png)
 
 * Click on the APIs >> **Products** breadcrumb link.
-* Click on the three dots in the **̈́Products** API and select **Download (JSON)**.
+* Click on the three dots in the **Products** API and select **Download (JSON)**.
 
 ![](assets/Selection_334.png)
 
