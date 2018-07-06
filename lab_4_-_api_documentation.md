@@ -1,36 +1,38 @@
 # Lab 4 - API Documentation {#lab-4-api-documentation}
 
-| ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab, you will generate and test an ActiveDocs documentation for the API created in the 2nd lab. |
-| --- | --- |
+{% hint style='info' %}
+In this lab, you will generate and test an ActiveDocs documentation for the API created in the 2nd lab.
+{% endhint %}
 
-1.  Open a web browser and go to [https://3scale-admin.3scale[your instance #].rhtechofficelatam.com/](https://www.google.com/url?q=https://3scale-admin.3scale1.rhtechofficelatam.com/apiconfig/services&sa=D&ust=1530635179337000)
-2.  Login as admin/admin
-3.  Click on the APIs tab.
-4.  Click on the AciveDocs link.
+*  Open a web browser and go to https://3scale-admin.3scale.{{ book.suffix }}
+*  Login as admin/admin
+*  Click on the **APIs** tab.
+*  Click on the **AciveDocs** link.
 
 ![](images/image31.png)
 
-1.  Click on the Create a new spec.
+*  Click on the **Create a new spec**.
 
 ![](images/image102.png)
 
-1.  Enter the following values:
-
-1.  Name: Products
-2.  System Name: products_spec
-3.  Publish?: checked
-4.  Description: Products API Documentation
+*  Enter the following values:
+| Parameter | Value |
+| --- | --- |
+| **Name** | Products |
+| **System Name** | products_spec |
+| **Publish?** | checked |
+| **Description** | Products API Documentation |
 
 ![](images/image75.png)
 
-1.  Open a new web browser tab, and go to [http://editor.swagger.io/](https://www.google.com/url?q=http://editor.swagger.io/&sa=D&ust=1530635179340000) 
-2.  Select File -&gt; Import URL.
-3.  Enter the following URL: [http://products.3scale[your instance #].rhtechofficelatam.com/rest/swagger.yaml](https://www.google.com/url?q=http://products.3scale1.rhtechofficelatam.com/rest/swagger.yaml&sa=D&ust=1530635179341000) 
-4.  Click OK.
+* Open a new web browser tab, and go to [http://editor.swagger.io/](https://www.google.com/url?q=http://editor.swagger.io/&sa=D&ust=1530635179340000) 
+*  Select **File** -&gt; **Import URL**.
+*  Enter the following URL: http://products.{{ book.suffix }}/rest/swagger.yaml 
+*  Click **OK**.
 
 ![](images/image79.png)
 
-1.  In the YAML editor, make the following change:
+*  In the YAML editor, make the following change:
 
 1.  Go to line #7 and change host to: products-apicast-staging.gateway.3scale[your instance #].rhtechofficelatam.com:443
 
