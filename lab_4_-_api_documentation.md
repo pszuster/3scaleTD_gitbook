@@ -49,49 +49,77 @@ In this lab, you will generate and test an ActiveDocs documentation for the API 
 * Click on the **Import API** button.
 
 ![](assets/Selection_328.png)
+
 * Click on the **Edit API** button.
 
 ![](assets/Selection_329.png)
-{% hint style='info' %}
-For each of the available operations, you will add a query parameter (user_key) which will be used by 3scale to receive the API Key for authentication.
+{% hint style='tip' %}
+You will add a "security scheme" to the API to secure it using API Keys.
 {% endhint %}
 
-1.  
-2.  Go to line #25 and add the following:
+* Click on the **Add a security scheme** link.
 
-|       - name: &quot;user_key&quot; |
-| --- |
+![](assets/Selection_330.png)
 
-![](images/image204.png)
+* Enter the following values:
 
-1.  Go to line #50 and add the user_key query parameter.
+| Parameter | Value |
+| -- | -- |
+| **Name** | apiKey |
+| **Security** | API Key |
+| **Key Location** | Query Parameter |
+| **Name** | user_key |
 
-![](images/image7.png)
+* Click on the **OK** button.
+![](assets/Selection_331.png)
 
-1.  Go to line #74 and add the user_key query parameter:
+* Click on the **Add security requirement** link.
 
-![](images/image121.png)
+![](assets/Selection_332.png)
 
-1.  Go to line #99, delete the square brackets, and add the user_key query parameter.
+* Check the **apiKey** security requirement.
+* Click on the **OK** button.
 
-![](images/image126.png)
+![](assets/Selection_333.png)
 
-1.  Click on File -&gt; Download JSON.
-2.  Save the JSON file to your disk.
-3.  Close the browser tab.
-4.  Go back to the 3Scale web browser ta3b.
-5.  Open the downloaded swagger.json file with any text editor, and copy its contents.
-6.  Paste it into the API JSON Spec field.
+* Click on the APIs >> **Products** breadcrumb link.
+* Click on the three dots in the **̈́Products** API and select **Download (JSON)**.
 
-![](images/image196.png)
+![](assets/Selection_334.png)
 
-1.  Scroll down to the bottom of the page, and click on the Create Service button.
-2.  Click on the  Publish link.
+* Save the **Products.json** file.
+* Go back to the 3Scale admin console web browser tab.
+* Open the downloaded **Products.json** file with any text editor, and copy its contents.
+* Paste it into the API JSON Spec field.
 
-![](images/image187.png)
+![](assets/Selection_335.png)
 
-1.  Expand the GET /services/products operation.
-2.  Go to the Parameters section.
+* Replace **host** field value with: **products-apicast-staging.3scale.{{book.suffix }}:443**
+* Change the **http** scheme to **https**.
+* Scroll down to the bottom of the page, and click on the **Create Service** button.
+
+![](assets/Selection_336.png)
+
+* Click on the **Applicatios** tab.
+* Click on the **ProductsApp** application.
+* Copy the **User Key** under **API Credentials**
+
+![](assets/Selection_337.png)
+
+* Click on the **APIs** tab.
+* Click on the **ActiveDocs** tab.
+* Click on the **Products** spec.
+
+![](assets/Selection_338.png)
+
+* Expand the **GET** **/services/allproducts** operation.
+* Click on the red circle with an exclamation sign.
+* Paste the **User Key** into the **value** field.
+* Click on the **Authorize** button.
+
+![](assets/Selection_339.png)
+
+2.  Go to the **Parameters** section.
 3.  Click on the user_key value field.
 4.  Select the ProductsApp user_key.
 
