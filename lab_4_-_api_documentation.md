@@ -106,6 +106,13 @@ You will add a "security scheme" to the API to secure it using API Keys.
 
 * Replace **host** field value with: **products-apicast-staging.3scale.{{book.suffix }}:443**
 * Change the **http** scheme to **https**.
+
+{% hint style='tip' %}
+We want the OpenAPI document to point to the API Gateway URL instead of the API directly.
+{% endhint %}
+
+
+
 * Scroll down to the bottom of the page, and click on the **Create Service** button.
 
 ![](assets/Selection_336.png)
@@ -133,6 +140,7 @@ You will add a "security scheme" to the API to secure it using API Keys.
 
 ![](images/image74.png)
 
-* If you get a “**No Content**” error, copy the **Request URL**, open a new tab and paste the URL.
-* Accept the certificate.
-* Close the tab and test the API again.
+* If you get a “**No Content**” error:
+   * Copy the **Request URL**, open a new tab and paste the URL.
+   * Accept the certificate.
+   * Close the tab and test the API again.
