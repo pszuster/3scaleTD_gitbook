@@ -6,8 +6,8 @@ In this lab you will work on the Developer Portal to make it more friendly/brand
 
 * Open a web browser.
 * Download this two files:
-    * [https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartLogo.png](https://www.google.com/url?q=https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartLogo.png&sa=D&ust=1530635179364000)
-    * [https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartBackground.jpg](https://www.google.com/url?q=https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartBackground.jpg&sa=D&ust=1530635179365000) 
+    * [https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartLogo.png](https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartLogo.png&sa=D&ust=1530635179364000)
+    * [https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartBackground.jpg](https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartBackground.jpg&sa=D&ust=1530635179365000) 
 
 * Go to https://3scale-admin.3scale.{{ book.suffix }}
 * Login as admin/admin
