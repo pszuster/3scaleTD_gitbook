@@ -59,7 +59,7 @@ This simple java class implements a JAX-WS SOAP webservice that allows consumers
 * Click on the **Continue to project overview **link.
 * After ~3min the Fuse Integration Services container should be up and running (there should be a blue circle).
 
-
+![](assets/Selection_361.png)
 
 {% hint style='info' %}
 This Fuse Integration Services container, has a SpringBoot Camel route, that transforms REST requests to SOAP requests and XML SOAP responses to JSON documents.
@@ -69,40 +69,38 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 * You should receive a JSON document generated from the SOAP response.
 * Close the tab.
 * Go to https://3scale-admin.3scale.{{ book.suffix }}
-* Click on the configuration icon.
-* Click on Personal Settings.
+* Click on the **configuration** icon.
+* Click on **Personal Settings**.
 
 ![](images/image50.png)
 
-1.  Click on the Tokens tab.
-2.  Click on the Add Access Token link.
+* Click on the **Tokens** tab.
+* Click on the **Add Access Token** link.
 
 ![](images/image62.png)
 
-1.  Enter Name: importer
-2.  Check on both
+* Enter **Name**: importer
+* Check on the three scopes.
+* Select Permission: **Read &amp; Write**
+* Click on the **Create Access Token **button.
 
-*   Account Management API
-*   Analytics API
+![](assets/Selection_362.png)
 
-1.  Select Permission: Read &amp; Write.
-2.  Click on the Create Access Token button.
+* Select and copy the generated Token.
 
-![](images/image115.png)
+![](assets/Selection_363.png)
 
-1.  Select and copy the generated Token.
+* Open a new web browser tab and go to http://swagger-import.{{ book.suffix }}
+* Enter the following values:
 
-![](images/image30.png)
+| Parameter | Value |
+| --- | --- |
+| **Access Token** | &lt;paste the copied Token&gt; |
+| **3Scale ID** | 3scale |
+| **Wildcard Domain** | {{ book.suffix }} |
+| **Swagger File URL** | http://stores-fis.{{ book.suffix }}/api-docs|
 
-1.  Open a new web browser tab and go to http://swagger-import.3scale[your instance #].rhtechofficelatam.com/
-2.  Enter the following values:
-
-*   Access Token: paste the copied Token.
-*   3Scale ID: 3scale
-*   Wildcard Domain: 3scale[your instance #].rhtechofficelatam.com
-*   Swagger File URL: http://stores-fis.3scale[your instance #].rhtechofficelatam.com/api-docs
-
-1.  Click on the Import API button.
+* Click on the **Import API** button.
 
 ![](images/image56.png)
 
