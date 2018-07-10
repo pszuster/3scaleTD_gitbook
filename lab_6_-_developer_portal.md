@@ -126,7 +126,7 @@ background-image: url('/images/RHMartBackground.jpg');
 * Click on **Statistics**.
 * Take a look at the traffic by application.
 
-![](images/image141.png)
+![](assets/Selection_356.png)
 
 * Click on **Documentation**.
 * Expand an operation and test it.
