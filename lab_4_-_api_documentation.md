@@ -16,6 +16,7 @@ In this lab, you will generate and test an ActiveDocs documentation for the API 
 ![](images/image102.png)
 
 *  Enter the following values:
+
 | Parameter | Value |
 | --- | --- |
 | **Name** | Products |
@@ -30,6 +31,7 @@ In this lab, you will generate and test an ActiveDocs documentation for the API 
 
 ![](assets/Selection_325.png)
 * Complete the form with the following values:
+
 | Parameter | Value |
 | --- | --- |
 | **First Name** | Username |
@@ -37,6 +39,7 @@ In this lab, you will generate and test an ActiveDocs documentation for the API 
 | **Email** | user@mail.com |
 | **Password** | password |
 | **Confirm Password** | password |
+
 * Click on the **Register** button.
 
 ![](assets/Selection_326.png)
