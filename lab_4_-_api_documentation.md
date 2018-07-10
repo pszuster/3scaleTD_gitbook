@@ -46,7 +46,7 @@ In this lab, you will generate and test an ActiveDocs documentation for the API 
 
 * Click on the **Import API** button.
 
-![](assets/Selection_327.png)
+![](assets/Selection_342.png)
 
 * Enter the following URL:  http://products.{{ book.suffix }}/rest/swagger.yaml
 * Click on the **Import API** button.
