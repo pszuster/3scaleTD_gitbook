@@ -109,7 +109,8 @@ background-image: url('/images/RHMartBackground.jpg');
 
 * Click on the **Visit Developer Portal** button.
 
-![](images/image18.png)
+![](assets/Selection_353.png)
+
 * Click on **SIGN IN**.
 
 ![](images/image135.png)
@@ -117,9 +118,11 @@ background-image: url('/images/RHMartBackground.jpg');
 * Login as
     * **Username**: rhbankdev
     * **Password**: rhbank
-
 * Click on **Applications**.
 * Review available applications for the RHBank account.
+
+![](assets/Selection_354.png)
+
 * Click on **Statistics**.
 * Take a look at the traffic by application.
 
@@ -127,5 +130,4 @@ background-image: url('/images/RHMartBackground.jpg');
 
 * Click on **Documentation**.
 * Expand an operation and test it.
-
-![](images/image190.png)
+![](assets/Selection_355.png)
