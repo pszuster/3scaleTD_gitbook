@@ -74,7 +74,7 @@ Notice there is a pre-built API called “API” that is useful for learning/tes
 | **System name** | products/premium |
 
 
-* Click on the Create Application Plan button.
+* Click on the **Create Application Plan** button.
 
 ![](images/image98.png)
 
