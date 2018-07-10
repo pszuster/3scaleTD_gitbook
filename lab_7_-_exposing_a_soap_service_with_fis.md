@@ -1,7 +1,7 @@
 # Lab 7 - Exposing a SOAP Service with FIS {#lab-7-exposing-a-soap-service-with-fis}
 
 {% hint style='info' %}
-In this lab you will expose an existing SOAP based JEE application running on a JBoss EAP container in the same OCP cluster. To do this, you will deploy a Fuse on Openshift application to your Openshift cluster, which was built to expose the SOAP webservice as a REST API. 
+In this lab you will expose an existing SOAP based JEE application running on a JBoss EAP container in the same OCP cluster. To do this, you will deploy a Fuse on Openshift application (formerly known as Fuse Integration Services) to your Openshift cluster, which was built to expose the SOAP webservice as a REST API. 
 {% endhint %}
 
 * Open a web browser and go to [https://github.com/pszuster/3ScaleTD/blob/master/Stores/src/main/java/com/redhat/service/StoresWS.java](https://github.com/pszuster/3ScaleTD/blob/master/Stores/src/main/java/com/redhat/service/StoresWS.java)
@@ -49,29 +49,28 @@ This simple java class implements a JAX-WS SOAP webservice that allows consumers
 
 ![](assets/Selection_359.png)
 
-* Enter “stores-fis” in the Browse Catalog search field.
-2.  Click on the Select button in the found template.
+* Select the **stores-fis** template.
+* Click on the **Next>** button.
+* Change the **HostName** parameter to: stores-fis.{{ book.suffix }}
+* Click on the **Create** button.
+
+![](assets/Selection_360.png)
+
+* Click on the **Continue to project overview **link.
+* After ~3min the Fuse Integration Services container should be up and running (there should be a blue circle).
 
 
-1.  Change the HostName parameter to: stores-fis.3scale[your instance #].rhtechofficelatam.com
 
-![](images/image167.png)
+{% hint style='info' %}
+This Fuse Integration Services container, has a SpringBoot Camel route, that transforms REST requests to SOAP requests and XML SOAP responses to JSON documents.
+{% endhint %}
 
-1.  Scroll down to the bottom of the page, and click on the Create button.
-2.  Click on the Continue to overview link.
-3.  After ~3min the Fuse Integration Services container should be up and running (there should be a blue circle).
-
-![](images/image107.png)
-
-| ![general_info_polished.png](images/image34.png) | This Fuse Integration Services container, has a SpringBoot Camel route, that transforms REST requests to SOAP requests and XML SOAP responses to JSON documents. |
-| --- | --- |
-
-1.  Open a new web browser tab, and go to http://stores-fis.3scale[your instance #].rhtechofficelatam.com/allstores/
-2.  You should receive a JSON document generated from the SOAP response.
-3.  Close the tab.
-4.  Go to https://3scale-admin.3scale[your instance #].rhtechofficelatam.com.
-5.  Click on the configuration icon.
-6.  Click on Personal Settings.
+* Open a new web browser tab, and go to http://stores-fis.{{ book.suffix }}/allstores/
+* You should receive a JSON document generated from the SOAP response.
+* Close the tab.
+* Go to https://3scale-admin.3scale.{{ book.suffix }}
+* Click on the configuration icon.
+* Click on Personal Settings.
 
 ![](images/image50.png)
 
