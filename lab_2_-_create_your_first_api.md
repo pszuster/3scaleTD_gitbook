@@ -211,9 +211,8 @@ The Products API is a restful service built on Java \(JAX-RS\), deployed on JBos
 ![](assets/Selection_321.png)
 
 * You should get a success message.
-* Click on  the **Back to Integration & Configuration** link.
 
-![](images/image69.png)
+![](assets/Selection_341.png)
 
 * Select the URL after “curl” and copy it.
 

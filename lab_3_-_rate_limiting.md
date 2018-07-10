@@ -51,7 +51,7 @@ In this lab, you configure and test a rate limiting policy in an application pla
 
 ![](images/image197.png)
 
-1.  Click on the Update Application Plan button.
+*  Click on the Update Application Plan button.
 
 ![](images/image114.png)
 
