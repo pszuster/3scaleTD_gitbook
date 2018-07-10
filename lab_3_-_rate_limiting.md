@@ -24,6 +24,7 @@ In this lab, you configure and test a rate limiting policy in an application pla
 ![](images/image174.png)
 
 * Enter the following values:
+
 | Parameter | Value |
 | --- | --- |
 | **Period** | hour |
