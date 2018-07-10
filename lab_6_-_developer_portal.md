@@ -82,49 +82,50 @@ In this lab you will work on the Developer Portal to make it more friendly/brand
 * Go to line #5.
 * Replace it with the following:
 
-| &lt;h1 style=&quot;text-shadow: 4px 4px #000000;&quot;&gt;RH Mart API&lt;/h1&gt; |
-| --- |
+```html
+<h1 style="text-shadow: 4px 4px #000000;">RH Mart API</h1>
+```
 
-1.  Scroll down to the bottom of the page and click on the Save button.
-2.  Click on default.css, under the css folder.
+* Scroll down to the bottom of the page and click on the **Save** button.
+* Click on **default.css**, under the **css** folder.
 
 ![](images/image146.png)
 
-1.  Go to line #22.
-2.  Replace it with the following:
+* Go to line #22.
+* Replace it with the following:
 
-|   background-image: url(&#039;/images/RHMartBackground.jpg&#039;); |
-| --- |
 
-1.  Scroll down to the bottom of the page.
-2.  Click on the Save button.
-3.  Click on the 0 Drafts tab.
-4.  Click on Publish All.
-5.  Accept the warning.
+```
+background-image: url('/images/RHMartBackground.jpg');
+```
+
+* Scroll down to the bottom of the page.
+* Click on the **Save** button.
+* Click on the **0 Drafts** tab.
+* Click on **Publish All**.
+* Accept the warning.
 
 ![](images/image193.png)
 
-1.  Click on the Visit Developer Portal button.
+* Click on the **Visit Developer Portal** button.
 
 ![](images/image18.png)
-
-1.  Click on SIGN IN.
+* Click on **SIGN IN**.
 
 ![](images/image135.png)
 
-1.  Login as
+* Login as
+    * **Username**: rhbankdev
+    * **Password**: rhbank
 
-1.  Username: rhbankdev
-2.  Password: rhbank
-
-1.  Click on Applications.
-2.  Review available applications for the RHBank account.
-3.  Click on Statistics.
-4.  Take a look at the traffic by application.
+* Click on **Applications**.
+* Review available applications for the RHBank account.
+* Click on **Statistics**.
+* Take a look at the traffic by application.
 
 ![](images/image141.png)
 
-1.  Click on Documentation.
-2.  Expand an operation and test it.
+* Click on **Documentation**.
+* Expand an operation and test it.
 
 ![](images/image190.png)
