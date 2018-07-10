@@ -64,6 +64,10 @@ In this lab you will generate some load for the API and then check out the analy
 
 ![](images/image177.png)
 
+* Copy the **User Key** under **API Credentials**.
+
+![](assets/Selection_346.png)
+
 * Click on the **APIs** tab.
 * Click on the **ActiveDocs** tab.
 * Click on the **Products** spec.
@@ -71,36 +75,37 @@ In this lab you will generate some load for the API and then check out the analy
 ![](images/image139.png)
 
 * Expand the **POST** method.
-* Click on the **user_key** field, and select **ProductsAppPremium** user key.
+* Click on the red circle icon with the exclamation mark.
+* Paste the api_key in the **value** field.
+* Click on the **Authorize** button.
 
-![](images/image77.png)
+![](assets/Selection_340.png)
 
-1.  Click on the Model next to the body field.
+* Click on the Model next to the body field.
 
 ![](images/image5.png)
 
-1.  Remove the productid field from the sample json document.
-2.  Replace “string” with “LED TV”.
-3.  Replace “0” with “199.99”.
-4.  Click on the Try it out! button.
+* Remove the productid field from the sample json document.
+* Replace “string” with “LED TV”.
+* Replace “0” with “199.99”.
+* Click on the **Try it out!** button.
 
 ![](images/image14.png)
 
-1.  You should receive a successful response.
+* You should receive a successful response.
 
 ![](images/image162.png)
 
-1.  Repeat these steps two times, to create two more products:
+* Repeat these steps two times, to create two more products:
 
 | productname | productprice |
 | --- | --- |
 | LED Smart TV | 299.99 |
 | LED Smart TV 3D | 399.99 |
 
-1.  Collapse the POST method by clicking on it.
-2.  Expand the GET /services/products operation.
-3.  Click on the user_key field and select ProductsAppPremium.
-4.  Click on the Try it out! button.
+* Collapse the **POST** method by clicking on it.
+* Expand the **GET /services/products** operation.
+* Click on the **Try it out!** button.
 
 ![](images/image194.png)
 
