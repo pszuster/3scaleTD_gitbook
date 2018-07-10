@@ -49,6 +49,12 @@ In this lab, you will generate and test an ActiveDocs documentation for the API 
 ![](assets/Selection_342.png)
 
 * Enter the following URL:  http://products.{{ book.suffix }}/rest/swagger.yaml
+
+{% hint style='tip' %}
+This API was built using [Swagger/OpenAPI annotations](https://github.com/swagger-api/swagger-core/wiki/annotations), so it will automatically and dynamically generate an OpenAPI document that describes its operations, parameters, etc. that you can get by accessing that URL (/rest/swagger.yaml).
+{% endhint %}
+
+
 * Click on the **Import API** button.
 
 ![](assets/Selection_328.png)
@@ -91,8 +97,8 @@ You will add a "security scheme" to the API to secure it using API Keys.
 
 ![](assets/Selection_334.png)
 
-* Save the **Products.json** file.
-* Go back to the 3Scale admin console web browser tab.
+* Save the **Products.json** file in your computer.
+* Close Apicurio, and go back to the 3Scale admin console web browser tab.
 * Open the downloaded **Products.json** file with any text editor, and copy its contents.
 * Paste it into the API JSON Spec field.
 
