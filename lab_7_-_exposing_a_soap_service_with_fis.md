@@ -1,56 +1,57 @@
 # Lab 7 - Exposing a SOAP Service with FIS {#lab-7-exposing-a-soap-service-with-fis}
 
-| ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab you will expose an existing SOAP based JEE application running on a JBoss EAP container in the same OCP cluster. To do this, you will deploy a Fuse Integration Services (FIS) application to OCP, which was configured to expose it as a REST service. |
-| --- | --- |
+{% hint style='info' %}
+In this lab you will expose an existing SOAP based JEE application running on a JBoss EAP container in the same OCP cluster. To do this, you will deploy a Fuse on Openshift application to your Openshift cluster, which was built to expose the SOAP webservice as a REST API. 
+{% endhint %}
 
-1.  Open a web browser and go to [https://github.com/pszuster/3ScaleTD/blob/master/Stores/src/main/java/com/redhat/service/StoresWS.java](https://www.google.com/url?q=https://github.com/pszuster/3ScaleTD/blob/master/Stores/src/main/java/com/redhat/service/StoresWS.java&sa=D&ust=1530635179385000)
-2.  This simple java class implements a JAX-WS SOAP webservice that allows consumers to create, delete or get Stores from RHMart.
+* Open a web browser and go to [https://github.com/pszuster/3ScaleTD/blob/master/Stores/src/main/java/com/redhat/service/StoresWS.java](https://github.com/pszuster/3ScaleTD/blob/master/Stores/src/main/java/com/redhat/service/StoresWS.java)
+
+{% hint style='tip' %}
+This simple java class implements a JAX-WS SOAP webservice that allows consumers to create, delete or get Stores from RHMart. 
+{% endhint %}
 
 ![](images/image203.png)
 
-1.  Go to https://threescale.3scale[your instance #].rhtechofficelatam.com:8443
-2.  Login as admin/admin
-3.  Select the Stores API project.
-4.  Click on the Add to Project button.
+* Go to https://3scale-admin.3scale.{{ book.suffix }}:8443
+* Login as admin/admin
+* Select the **Stores API** project.
+* Click on the **Browse Catalog** button.
 
-![](images/image67.png)
+![](assets/Selection_357.png)
 
-1.  Enter “stores-soap” in the Browse Catalog search field.
-2.  Click on the Select button in the found template.
+* Select the **Stores SOAP API** template.
+* Click on the **Next>** button.
+*  Modify the **“Custom http Route Hostname”** parameter to: stores-soap.{{ book.suffix }}
+* Scroll down to the bottom of the page and click on the **Create** button.
+* Click on the **Continue to the project overview **link.
+* After ~5min the Stores SOAP API should be up and running (there should be two blue circles).
 
-![](images/image57.png)
+![](assets/Selection_358.png)
 
-1.  Modify the “Custom http Route Hostname” to: stores-soap.3scale[tour instance #].rhtechofficelatam.com
-2.  Scroll down to the bottom of the page and click on the Create button.
-3.  Click on the Continue to Overview link.
-4.  After ~5min the Stores SOAP API should be up and running (there should be two blue circles).
+* Open a new web browser tab, and go to [http://wsdlbrowser.com/](http://wsdlbrowser.com)
+* Enter the following value:
 
-![](images/image66.png)
+* **WSDL URL**:  http://stores-soap.{{ book.suffix }}/StoresWS?wsdl
 
-1.  Open a new web browser tab, and go to [http://wsdlbrowser.com/](https://www.google.com/url?q=http://wsdlbrowser.com/&sa=D&ust=1530635179387000)
-2.  Enter the following value:
-
-*   WSDL URL:  http://stores-soap.3scale[your instance #].rhtechofficelatam.com/StoresWS?wsdl
-
-1.  Click on the Browse button.
+* Click on the **Browse** button.
 
 ![](images/image148.png)
 
-1.  Click on the getAllStores Soap operation.
-2.  Click on the Call Function button.
+* Click on the **getAllStores** Soap operation.
+* Click on the **Call Function** button.
 
 ![](images/image97.png)
 
-1.  Close the browser tab, and go back to OpenShift console.
-2.  Make sure you are in the Stores API project.
-3.  Click on the  Add to project button.
+* Close the browser tab, and go back to OpenShift console.
+* Make sure you are in the **Stores API **project.
+* Click on the **Add to project ** dropdown button.
+* Click on **Browse Catalog**.
 
-![](images/image103.png)
+![](assets/Selection_359.png)
 
-1.  Enter “stores-fis” in the Browse Catalog search field.
+* Enter “stores-fis” in the Browse Catalog search field.
 2.  Click on the Select button in the found template.
 
-![](images/image39.png)
 
 1.  Change the HostName parameter to: stores-fis.3scale[your instance #].rhtechofficelatam.com
 
