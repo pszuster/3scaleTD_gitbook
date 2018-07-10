@@ -54,7 +54,7 @@ In this lab you will work on the Developer Portal to make it more friendly/brand
 
 * Scroll down to the bottom of the page, and click on the **Save** button.
 
-![](images/image183.png)
+![](assets/Selection_352.png)
 
 * Click on the **Pages** icon.
 * Click on **Documentation**.
