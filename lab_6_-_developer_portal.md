@@ -1,81 +1,86 @@
 # Lab 6 - Developer Portal {#lab-6-developer-portal}
 
-| ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab you will work on the Developer Portal for the API’s customers/partners/users. |
-| --- | --- |
+{% hint style='info' %}
+In this lab you will work on the Developer Portal to make it more friendly/branded for customers/partners/consumers.
+{% endhint %}
 
-1.  Open a web browser.
-2.  Download this two files:
+* Open a web browser.
+* Download this two files:
+    * [https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartLogo.png](https://www.google.com/url?q=https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartLogo.png&sa=D&ust=1530635179364000)
+    * [https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartBackground.jpg](https://www.google.com/url?q=https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartBackground.jpg&sa=D&ust=1530635179365000) 
 
-1.  [https://github.com/pszuster/3ScaleTD/raw/master/DevPortal/RHMartLogo.png](https://www.google.com/url?q=https://github.com/pszuster/3ScaleTD/raw/master/DevPortal/RHMartLogo.png&sa=D&ust=1530635179364000)
-2.  [https://github.com/pszuster/3ScaleTD/raw/master/DevPortal/RHMartBackground.jpg](https://www.google.com/url?q=https://github.com/pszuster/3ScaleTD/raw/master/DevPortal/RHMartBackground.jpg&sa=D&ust=1530635179365000) 
-
-1.  Go to https://3scale-admin.3scale[your instance #].rhtechofficelatam.com
-2.  Login as admin/admin
-3.  Click on the Developer Portal tab.
-4.  Click on the arrow next to New Page button.
-5.  Click on New File.
+* Go to https://3scale-admin.3scale.{{ book.suffix }}
+* Login as admin/admin
+* Click on the **Developer Portal** tab.
+* Click on the arrow next to **New Page** button.
+* Click on **New File**.
 
 ![](images/image20.png)
 
-1.  Set Section to images.
-2.  Set Path to /images/RHMartLogo.png
-3.  Click on the Choose File button.
-4.  Select the RHMartLogo.png file you downloaded in the first step.
-5.  Click on the Create File button.
+* Set **Section** to **images**.
+* Set **Path** to **/images/RHMartLogo.png**
+* Click on the **Choose File** button.
+* Select the **RHMartLogo.png** file you downloaded in the first step.
+* Click on the **Create File** button.
 
 ![](images/image13.png)
 
-1.  Click on the New File button.
+* Click on the **New File** button.
 
 ![](images/image119.png)
 
-1.  Set Section to images.
-2.  Set Path to /images/RHMartBackground.jpg
-3.  Click on the Choose File button.
-4.  Select the RHMartBackground.jpg file you downloaded in the first step.
-5.  Click on the Create File button.
+* Set **Section** to **images**.
+* Set **Path** to **/images/RHMartBackground.jpg**
+* Click on the **Choose Fil**e button.
+* Select the **RHMartBackground.jpg** file you downloaded in the first step.
+* Click on the **Create File** button.
 
 ![](images/image199.png)
 
-1.  Click on the All button.
-2.  Click on the Layouts icon.
-3.  Click on Main Layout.
+* Click on the **All** button.
+* Click on the **Layouts** icon.
+* Click on **Main Layout**.
 
 ![](images/image99.png)
 
-1.  Go to line #46.
-2.  Replace it with the following:
+* Go to line **#46**.
+* Replace it with the following:
 
-| &lt;div class=&quot;logo&quot;&gt; |
-| --- |
+```html
+<div class="logo">
+       <a href="#"><img src="/images/RHMartLogo.png" alt="" style="height:100px; width:150px;">
+       </a>
+    </div>
+```
 
-1.  Scroll down to the bottom of the page, and click on the Save button.
+* Scroll down to the bottom of the page, and click on the **Save** button.
 
 ![](images/image183.png)
 
-1.  Click on the Pages icon.
-2.  Click on Documentation.
+* Click on the **Pages** icon.
+* Click on **Documentation**.
 
 ![](images/image151.png)
 
-1.  Go to line #3 and replace “Echo” with “RHMart”.
-2.  Go to line #5.
-3.  Replace the line with the following:
+* Go to line #3 and replace **"Echo"** with **"RHMart"**.
+* Go to line #5.
+* Replace the line with the following:
 
-| {active_docs version: &quot;2.0&quot; services: &quot;products_spec&quot; %} |
-| --- |
+```
+{% active_docs version: "2.0" services: "products_spec" %}
+```
 
-1.  Click on the Save  button.
+* Click on the **Save** button.
 
 ![](images/image32.png)
 
-1.  Click on Homepage.
+* Click on **Homepage**.
 
 ![](images/image11.png)
 
-1.  Go to the HTML editor, and perform a search and replace of “Echo” (with capital “E”) to “RHMart” in lines #19, #98 and #112.
-2.  Go to line #5.
-3.  Replace it with the following:
+* Go to the **HTML editor**, and perform a search and replace of "**Echo"** (with capital "_E_") to **"RHMart"** in lines #19, #98 and #112.
+* Go to line #5.
+* Replace it with the following:
 
 | &lt;h1 style=&quot;text-shadow: 4px 4px #000000;&quot;&gt;RH Mart API&lt;/h1&gt; |
 | --- |
