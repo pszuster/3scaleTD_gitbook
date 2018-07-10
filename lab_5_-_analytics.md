@@ -36,39 +36,41 @@ In this lab you will generate some load for the API and then check out the analy
 
 ![](images/image192.png)
 
-1.  You should get an authorization error, since the application you are using (RHBank’s App) is subscribed to the ProductsBasicPlan which only allows the GET methods.
+*  You should get an authorization error, since the application you are using (**RHBank’s App**) is subscribed to the **ProductsBasicPlan** which only allows the GET methods.
 
 ![](images/image134.png)
 
-1.  Collapse the POST method by clicking on it.
-2.  Click on the Developers tab.
-3.  Click on the RHBank account.
+* Collapse the **POST** method by clicking on it.
+* Click on the **Developers** tab.
+* Click on the **RHBank** account.
 
 ![](images/image28.png)
 
-1.  Click on the 2 Applications breadcrumb.
-2.  Click on the Create Application link.
+* Click on the **2 Applications **breadcrumb.
+* Click on the **Create Application** link.
 
 ![](images/image147.png)
 
-1.  Select the ProductsPremiumPlan.
-2.  Enter the following values:
+* Select the **ProductsPremiumPlan**.
+* Enter the following values:
 
-1.  Name: ProductsAppPremium
-2.  Description: RHBank Products Premium App
+| Parameter | Value |
+| --- | --- |
+| **Name** | ProductsAppPremium |
+| **Description** | RHBank Products Premium App |
 
-1.  Click on the Create Application button.
+*  Click on the **Create Application** button.
 
 ![](images/image177.png)
 
-1.  Click on the APIs tab.
-2.  Click on the ActiveDocs tab.
-3.  Click on the Products spec.
+* Click on the **APIs** tab.
+* Click on the **ActiveDocs** tab.
+* Click on the **Products** spec.
 
 ![](images/image139.png)
 
-1.  Expand the POST method.
-2.  Click on the user_key field, and select ProductsAppPremium user key.
+* Expand the **POST** method.
+* Click on the **user_key** field, and select **ProductsAppPremium** user key.
 
 ![](images/image77.png)
 
