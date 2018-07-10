@@ -122,7 +122,7 @@ You will add a "security scheme" to the API to secure it using API Keys.
 * Click on the **Authorize** button.
 
 ![](assets/Selection_339.png)
-* Click on the Try it Out! Button.
+* Click on the **Try it Out!** button.
 * You should get a successful response like the following:
 
 ![](images/image74.png)
