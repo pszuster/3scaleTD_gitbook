@@ -183,7 +183,7 @@ Notice there is one default application for the built-in “API” service.
 
 ![](assets/Selection_318.png)
 
-* Open a new web browser tab, and go to https://{{ book.hostname }}/console/project/products-api/overview
+* Open a new web browser tab, and go to https://{{ book.hostname }}:8443/console/project/products-api/overview
 
 ![](images/image163.png)
 * Take note of the Products API http route. It should be http://products.{{ book.suffix }}
