@@ -6,9 +6,8 @@ In this lab you will work on the Developer Portal to make it more friendly/brand
 
 * Open a web browser.
 * Download this two files:
-    * [https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartLogo.png](https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartLogo.png&sa=D&ust=1530635179364000)
-    * [https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartBackground.jpg](https://github.com/pszuster/3ScaleTD/raw/v2.2/DevPortal/RHMartBackground.jpg&sa=D&ust=1530635179365000) 
-
+    * https://raw.githubusercontent.com/pszuster/3ScaleTD/v2.0/DevPortal/RHMartBackground.jpg
+    * https://raw.githubusercontent.com/pszuster/3ScaleTD/v2.0/DevPortal/RHMartLogo.png
 * Go to https://3scale-admin.3scale.{{ book.suffix }}
 * Login as admin/admin
 * Click on the **Developer Portal** tab.
@@ -63,16 +62,17 @@ In this lab you will work on the Developer Portal to make it more friendly/brand
 ![](images/image151.png)
 
 * Go to line #3 and replace **"Echo"** with **"RHMart"**.
-* Go to line #5.
-* Replace the line with the following:
+* Go to line #18.
+* Insert a new line.
+* Add the following code:
 
 ```
-{% active_docs version: "2.0" services: "products_spec" %}
+ window.swaggerUi.options['url'] = "{{provider.api_specs.products_spec.url}}";
 ```
 
 * Click on the **Save** button.
 
-![](images/image32.png)
+![](assets/Selection_351.png)
 
 * Click on **Homepage**.
 
