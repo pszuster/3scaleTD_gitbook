@@ -205,6 +205,20 @@ The Products API is a restful service built on Java \(JAX-RS\), deployed on JBos
 
 ![](assets/Selection_319.png)
 
+* Expand the **Policies** section.
+* Click on the **Add Policy** link.
+
+![](assets/Selection_344.png)
+
+* Click on the **CORS** policy.
+
+![](assets/Selection_345.png)
+
+{% hint style='info' %}
+Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served. We will need this policy enabled later, to be able to make API calls from an OpenAPI document.
+{% endhint %}
+
+
 * Scroll down to **API Test GET request**.
 * Enter  `/rest/services/product/1`.
 * Click on the **Update & Test in Staging Environment**.

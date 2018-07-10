@@ -22,14 +22,15 @@ In this lab you will generate some load for the API and then check out the analy
 ![](images/image10.png)
 
 * Expand the **POST** method.
-* Click on the red circle icon with the exclamation mark.
-* Paste the api_key in the **value** field.
-* Click on the **Authorize** button.
+* If already not logged in:
+    * Click on the red circle icon with the exclamation mark.
+    * Paste the api_key in the **value** field.
+    * Click on the **Authorize** button.
 
 ![](assets/Selection_340.png)
 *  Click on the Model next to the body field.
 
-![](images/image5.png)
+![](assets/Selection_343.png)
 
 * Remove the **productid** field from the sample json document.
 * Click on the **Try it out!** button.
