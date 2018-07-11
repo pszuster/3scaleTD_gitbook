@@ -1,4 +1,4 @@
-# Lab 8 - Exposing an OData Service with JDV {#lab-8-exposing-an-odata-service-with-jdv}
+[](assets)# Lab 8 - Exposing an OData Service with JDV {#lab-8-exposing-an-odata-service-with-jdv}
 
 {% hint style='info' %}
 In this lab you will deploy an OData service based on a JBoss DataVirtualization for Openshift (JDV) virtual database (VDB).  This VDB has a virtual view that retrieves data from two databases’ tables (MySQL and PostreSQL) and present them as a single SQL ANSI table. Then, out of the box, this view is exposed in JDV as an OData REST service. You can find more info about JDV here: https://www.redhat.com/en/technologies/jboss-middleware/data-virtualization
@@ -45,89 +45,92 @@ JDV is a data integration tool that allows you to connect to different data sour
 
 ![](images/image173.png)
 
-1.  Enter the following values:
+* Enter the following values:
 
-1.  Name: Stock API
-2.  System Name: stock-api
-3.  Description: Stock API
+| Parameter | Value |
+| --- | --- |
+| **Name** | Stock |
+| **System Name** | stock-api |
+| **Description** | Stock API |
 
-![](images/image156.png)
+![](assets/Selection_373.png)
 
-1.  Scroll down to the bottom of the page and click on the Create Service button.
-2.  Click on the Create Application Plan link.
+* Scroll down to the bottom of the page and click on the **Create Service** button.
+* Click on the **Create Application Plan** link.
 
-![](images/image184.png)
+![](assets/Selection_374.png)
 
-1.  Enter the following values:
+*  Enter the following values:
+    * **Name**: StockPremiumPlan
+    * **System Name**: stockPremiumPlan
 
-1.  Name: StockPremiumPlan
-2.  System Name: stockPremiumPlan
+* Click on the **Create Application Plan** button.
 
-1.  Click on the Create Application Plan button.
+![](assets/Selection_375.png)
 
-![](images/image150.png)
-
-1.  Click on the Publish link.
-2.  Click on the Developers tab.
-3.  Click on the RHBank account.
+* Click on the **Publish** link.
+* Click on the **Developers** tab.
+* Click on the **RHBank** account.
 
 ![](images/image125.png)
 
-1.  Click on the  4 Applications breadcrumb.
-2.  Click on the Create Application link.
+* Click on the **4 Applications** breadcrumb.
+* Click on the **Create Application** link.
 
 ![](images/image127.png)
+* Enter the following values:
 
-1.  Enter the following values:
+| Parameter | Value |
+| --- | --- |
+| **Application Plan** | StockPremiumPlan |
+| **Name** | StockApp |
+| **Description** | Stock Application |
 
-1.  Application Plan: StockPremiumPlan
-2.  Name: StockApp
-3.  Description: Stock Application
+* Click on the **Create Application** button.
 
-1.  Click on the Create Application button.
+![](assets/Selection_376.png)
 
-![](images/image143.png)
-
-1.  Click on the Stock API link.
-2.  Click on the Integration tab.
-3.  Click on the add the base URL of your API and save the configuration button.
+* Click on the **Stock** API link.
+* Click on the **Integration** tab.
+* Click on the **add the base URL of your API and save the configuration** button.
 
 ![](images/image137.png)
 
-1.  Enter the following values:
+* Enter the following values:
 
-1.  Private Base URL: [http://stock-api.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=http://stock-api.3scale1.rhtechofficelatam.com&sa=D&ust=1530635179422000) 
-2.  Staging Public Base URL: https://stock-apicast-staging.gateway.3scale[your instance #].rhtechofficelatam.com:443
-3.  Production Public Base URL: [https://stock-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com:443](https://www.google.com/url?q=https://stock-apicast-production.gateway.3scale1.rhtechofficelatam.com:443&sa=D&ust=1530635179423000)
+    * **Private Base URL**: http://stock-api.{{ book.suffix }}
+    *** Staging Public Base URL**: https://stock-apicast-staging.3scale.{{ book.suffix }}
+    * **Production Public Base URL**: https://stock-apicast-production.3scale.{{ book.suffix }}
 
-1.  Click on the edit icon next to the GET operation under Mapping Rules.
-2.  Enter /odata4/Stock-API/FederatedStock/stock as the Pattern.
-3.  Enter /odata4/Stock-API/FederatedStock/stock?$format=JSON in the API test GET request.
-4.  Click on the Update &amp; test in the Staging Environment.
+* Click on the **edit** icon next to the **GET** operation under **Mapping Rules**.
+* Enter **/odata4/Stock-API/FederatedStock/stock** as the **Pattern**.
+* Enter **/odata4/Stock-API/FederatedStock/stock?$format=JSON** in the **API test GET request**.
+4.  Click on the **Update &amp; test in the Staging Environment** button.
 
 ![](images/image172.png)
 
-1.  Click on the Back to Integration &amp; Configuration link.
-2.  Click on the  Promote v.1 to Production button.
+* Click on the **Back to Integration &amp; Configuration** link.
+* Click on the **Promote v.1 to Production** button.
 
-| ![general_info_polished.png](images/image34.png) | OData URLs in JDV are formed using the following syntax: |
-| --- | --- |
+{% hint style='info' %}
+[OData](http://www.odata.org/) URLs in JDV are formed using the following syntax:
+/odata[4]/[VDB_Name]/[ModelName]/[ViewName]
+{% endhint %}
 
-1.  Click on the ActiveDocs tab.
+* Click on the **ActiveDocs** tab.
 
 ![](images/image81.png)
 
-1.  Click on the Create a new spec link.
-2.  Enter the following values:
+* Click on the **Create a new spec** link.
+* Enter the following values:
+    * **Name**: Stock API
+    * **System Name**: stockApiSpec
 
-1.  Name: Stock API
-2.  System Name: stockApiSpec
-
-1.  Open a new web browser tab and go to [https://raw.githubusercontent.com/pszuster/3ScaleTD/master/Stock/stock-api-swagger.json](https://www.google.com/url?q=https://raw.githubusercontent.com/pszuster/3ScaleTD/master/Stock/stock-api-swagger.json&sa=D&ust=1530635179428000)
-2.  Copy the contents of the json file (Ctrl+A, Ctrl+C).
-3.  Close the browser tab.
-4.  Paste the json file to the  API JSON Spec field.
-5.  Change the host attribute to [stock-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://stock-apicast-production.gateway.3scale1.rhtechofficelatam.com:443&sa=D&ust=1530635179429000),  to match your instance #.
+* Open a new web browser tab and go to [https://raw.githubusercontent.com/pszuster/3ScaleTD/master/Stock/stock-api-swagger.json](https://raw.githubusercontent.com/pszuster/3ScaleTD/master/Stock/stock-api-swagger.json)
+* Copy the contents of the json file (Ctrl+A, Ctrl+C).
+* Close the browser tab.
+* Paste the json file to the **API JSON Spec** field.
+* Change the **host** attribute to stock-apicast-production.3scale.{{ book.suffix }}
 
 ![](images/image96.png)
 
