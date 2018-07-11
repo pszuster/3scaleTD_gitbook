@@ -21,6 +21,7 @@
   * [Deploy Fuse REST API](lab_7_-_exposing_a_soap_service_with_fis/deploy-fuse-rest-api.md)
   * [Create Stores API](lab_7_-_exposing_a_soap_service_with_fis/create-stores-api.md)
 * [Lab 8 - Exposing an OData Service with JDV](lab_8_-_exposing_an_odata_service_with_jdv.md)
+  * [Deploy Stock service \(JDV\)](lab_8_-_exposing_an_odata_service_with_jdv/deploy-stock-service-jdv.md)
 * [Lab 9 - Sample Application](lab_9_-_sample_application.md)
 * [Lab 10 - Securing APIs with OAuth2](lab_10_-_securing_apis_with_oauth2.md)
 
