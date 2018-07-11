@@ -1,4 +1,4 @@
-# Lab 7 - Exposing a SOAP Service with FIS {#lab-7-exposing-a-soap-service-with-fis}
+****# Lab 7 - Exposing a SOAP Service with FIS {#lab-7-exposing-a-soap-service-with-fis}
 
 {% hint style='info' %}
 In this lab you will expose an existing SOAP based JEE application running on a JBoss EAP container in the same OCP cluster. To do this, you will deploy a Fuse on Openshift application (formerly known as Fuse Integration Services) to your Openshift cluster, which was built to expose the SOAP webservice as a REST API. 
@@ -151,16 +151,16 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 
 ![](images/image35.png)
 
-* Click on the Integration tab.
-* Click on the  add the base URL of your API and save the configuration button.
+* Click on the **Integration** tab.
+* Click on the **add the base URL of your API and save the configuration** button.
 
 ![](images/image182.png)
 
-1.  Enter the following values:
+* Enter the following values:
 
-*   Private Base URL: [http://stores-fis.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=http://stores-fis.3scale1.rhtechofficelatam.com&sa=D&ust=1530635179401000)
-*   Staging Public Base URL: [https://stores-apicast-staging.gateway.3scale[your instance #].rhtechofficelatam.com:443](https://www.google.com/url?q=https://stores-apicast-staging.gateway.3scale1.rhtechofficelatam.com:443&sa=D&ust=1530635179402000)
-*   Production Public Base URL: [https://stores-apicast-production.gateway.3scale](https://www.google.com/url?q=https://stores-apicast-production.gateway.3scale1.rhtechofficelatam.com:443&sa=D&ust=1530635179403000)[[your instance #]](https://www.google.com/url?q=https://stores-apicast-staging.gateway.3scale1.rhtechofficelatam.com:443&sa=D&ust=1530635179403000)[.rhtechofficelatam.com:443](https://www.google.com/url?q=https://stores-apicast-production.gateway.3scale1.rhtechofficelatam.com:443&sa=D&ust=1530635179403000) 
+    * **Private Base URL**: http://stores-fis.{{ book.suffix }}
+    * **Staging Public Base URL**: https://stores-apicast-staging.3scale.{{ book.suffix }}
+    * **Production Public Base URL**: https://stores-apicast-production.3scale.{{ book.suffix }}
 *   API test GET request: /allstores
 
 1.  Click on the  Update &amp; test in Staging Environment button.
