@@ -161,28 +161,33 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
     * **Private Base URL**: http://stores-fis.{{ book.suffix }}
     * **Staging Public Base URL**: https://stores-apicast-staging.3scale.{{ book.suffix }}
     * **Production Public Base URL**: https://stores-apicast-production.3scale.{{ book.suffix }}
-*   API test GET request: /allstores
+    * **API test GET request**: /allstores
 
-1.  Click on the  Update &amp; test in Staging Environment button.
+* Click on the **Update &amp; test in Staging Environment** button.
 
-![](images/image175.png)
+![](assets/Selection_365.png)
 
-1.  You should receive a successful validation.
-2.  Click on the Back to Integration &amp; Configuration link.
+* You should receive a successful validation.
+* Click on the **Back to Integration &amp; Configuration** link.
 
 ![](images/image200.png)
 
-1.  Click on the Promote v1 to Production button.
+* Click on the **Promote v1 to Production** button.
 
 ![](images/image46.png)
 
-1.  Click on the ActiveDocs tab.
-2.  Click on the Edit icon for the Stores API spec.
+* Click on the **ActiveDocs** tab.
+* Click on the **Edit** icon for the **Stores API** spec.
 
-![](images/image171.png)
+![](assets/Selection_366.png)
 
-1.  Change the host attribute to: stores-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com
-2.  For each of the four user_key parameters, add the following attribute: ,&quot;x-data-threescale-name&quot;: &quot;user_keys&quot;
+* Change the host attribute to: **stores-apicast-production.3scale.{{ book.suffix }}**
+* For each of the four **user_key** parameters, add the following attribute: 
+
+```
+,&quot;x-data-threescale-name&quot;: &quot;user_keys&quot;
+
+```
 
 ![](images/image195.png)
 
