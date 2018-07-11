@@ -162,10 +162,11 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
     * **Staging Public Base URL**: https://stores-apicast-staging.3scale.{{ book.suffix }}
     * **Production Public Base URL**: https://stores-apicast-production.3scale.{{ book.suffix }}
     * **API test GET request**: /allstores
+    * **Policy Chain**: CORS
 
 * Click on the **Update &amp; test in Staging Environment** button.
 
-![](assets/Selection_365.png)
+![](assets/Selection_368.png)
 
 * You should receive a successful validation.
 * Click on the **Back to Integration &amp; Configuration** link.
@@ -182,6 +183,7 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 ![](assets/Selection_366.png)
 
 * Change the host attribute to: **stores-apicast-production.3scale.{{ book.suffix }}**
+* 
 * For each of the four **user_key** parameters, add the following attribute: 
 
 ```
@@ -189,7 +191,7 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 
 ```
 
-![](assets/Selection_367.png)
+![](assets/Selection_369.png)
 
 * Scroll down to the bottom of the page and click on the **Update Service** button.
 * Open a web browser tab and go to https://stores-apicast-production.3scale.{{ book.suffix }} and accept the SSL certificate.
