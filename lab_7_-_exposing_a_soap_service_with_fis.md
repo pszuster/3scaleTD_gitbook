@@ -12,7 +12,7 @@ This simple java class implements a JAX-WS SOAP webservice that allows consumers
 
 ![](images/image203.png)
 
-* Go to https://3scale-admin.3scale.{{ book.suffix }}:8443
+* Go to https://{{ book.hostname }}:8443
 * Login as admin/admin
 * Select the **Stores API** project.
 * Click on the **Browse Catalog** button.
@@ -21,10 +21,10 @@ This simple java class implements a JAX-WS SOAP webservice that allows consumers
 
 * Select the **Stores SOAP API** template.
 * Click on the **Next>** button.
-*  Modify the **“Custom http Route Hostname”** parameter to: stores-soap.{{ book.suffix }}
+* Modify the **“Custom http Route Hostname”** parameter to: **stores-soap.{{ book.suffix }}**
 * Scroll down to the bottom of the page and click on the **Create** button.
 * Click on the **Continue to the project overview **link.
-* After ~5min the Stores SOAP API should be up and running (there should be two blue circles).
+* After ~5min the **Stores SOAP API** should be up and running (there should be two blue circles).
 
 ![](assets/Selection_358.png)
 
