@@ -29,15 +29,19 @@ In this lab you will deploy an OData service based on a JBoss DataVirtualization
 
 ![](images/image63.png)
 
-1.  You should receive JSON document with Stock information coming from the Virtual DataBase(VDB) deployed in the JBoss DataVirtualization container.
+{% hint style='tip' %}
+You should receive a JSON document with Stock information coming from the Virtual DataBase(VDB) deployed in the JBoss Data Virtualization container. The VDB has a stock table with federated data from the mysql and postgresql databases.
+{% endhint %}
 
-| ![general_info_polished.png](images/image34.png) | JDV is a data integration tool that allows you to connect to different data sources in real time and present a unified SQL view to the data consumer. |
-| --- | --- |
+{% hint style='info' %}
+JDV is a data integration tool that allows you to connect to different data sources in real time and present a unified SQL view to the data consumer. (more info: https://www.redhat.com/en/technologies/jboss-middleware/data-virtualization
+)
+{% endhint %}
 
-1.  Go to [https://3scale-admin.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://3scale-admin.3scale1.rhtechofficelatam.com&sa=D&ust=1530635179417000) 
-2.  Login as admin/admin
-3.  Click on the APIs tab.
-4.  Click on the Create Service link.
+* Go to https://3scale-admin.3scale.{{ book.suffix }} 
+* Login as admin/admin
+* Click on the **APIs** tab.
+* Click on the **Create Service** link.
 
 ![](images/image173.png)
 
