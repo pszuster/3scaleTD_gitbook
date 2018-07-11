@@ -191,12 +191,12 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 
 ![](assets/Selection_367.png)
 
-1.  Scroll down to the bottom of the page and click on the Update Service button.
-2.  Open a web browser tab and go to [https://stores-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://stores-apicast-production.gateway.3scale1.rhtechofficelatam.com&sa=D&ust=1530635179407000) and accept the SSL certificate.
-3.  Close the tab and go back to the Stores API ActiveDoc.
-4.  Expand the /allstores operation.
-5.  Click on the user_key parameter field and select the storesApp user key.
-6.  Click on the Try it out! button.
+* Scroll down to the bottom of the page and click on the **Update Service** button.
+* Open a web browser tab and go to https://stores-apicast-production.3scale.{{ book.suffix }} and accept the SSL certificate.
+* Close the tab and go back to the **Stores API** ActiveDoc.
+* Expand the **/allstores** operation.
+* Click on the **user_key** parameter field and select the **storesApp** user key.
+* Click on the **Try it out!** button.
 
 ![](images/image161.png)
 
