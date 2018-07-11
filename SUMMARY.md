@@ -7,6 +7,7 @@
 * [Lab 1 - Installation](lab_1_-_installation.md)
 * [Lab 2 - Create your first API](lab_2_-_create_your_first_api.md)
   * [Create API](lab_2_-_create_your_first_api/create-api.md)
+  * [Create Developer Account](lab_2_-_create_your_first_api/create-developer-account.md)
 * [Lab 3 - Rate Limiting](lab_3_-_rate_limiting.md)
 * [Lab 4 - API Documentation](lab_4_-_api_documentation.md)
 * [Lab 5 - Analytics](lab_5_-_analytics.md)
