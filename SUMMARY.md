@@ -12,6 +12,8 @@
 * [Lab 3 - Rate Limiting](lab_3_-_rate_limiting.md)
 * [Lab 4 - API Documentation](lab_4_-_api_documentation.md)
 * [Lab 5 - Analytics](lab_5_-_analytics.md)
+  * [Create Premium Application](lab_5_-_analytics/create-premium-application.md)
+  * [Generate Traffic](lab_5_-_analytics/generate-traffic.md)
 * [Lab 6 - Developer Portal](lab_6_-_developer_portal.md)
 * [Lab 7 - Exposing a SOAP Service with FIS](lab_7_-_exposing_a_soap_service_with_fis.md)
 * [Lab 8 - Exposing an OData Service with JDV](lab_8_-_exposing_an_odata_service_with_jdv.md)
