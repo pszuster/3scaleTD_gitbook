@@ -97,64 +97,62 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 | --- | --- |
 | **Access Token** | &lt;paste the copied Token&gt; |
 | **3Scale ID** | 3scale |
-| **Wildcard Domain** | {{ book.suffix }} |
+| **Wildcard Domain** | 3scale.{{ book.suffix }} |
 | **Swagger File URL** | http://stores-fis.{{ book.suffix }}/api-docs|
 
 * Click on the **Import API** button.
 
-![](images/image56.png)
+![](assets/Selection_364.png)
 
-1.  After a couple of seconds, the import should be done.
+* After a couple of seconds, the import process should be done.
 
 ![](images/image86.png)
 
-1.  Close the browser tab.
-2.  Go back to  https://3scale-admin.3scale[your instance #].rhtechofficelatam.com.
-3.  Click on the APIs tab.
-4.  Expand Stores API.
-5.  Click on the Create Application Plan link
+* Close the browser tab.
+* Go back to  https://3scale-admin.{{ book.suffix }}
+* Click on the **APIs** tab.
+* Expand **Stores API**.
+* Click on the **Create Application Plan** link
 
 ![](images/image179.png)
 
-1.  Enter the following values:
+* Enter the following values:
+    * **Name**: StoresPremiumPlan
+    * **System Name**: storesPremiumPlan
 
-*   Name: StoresPremiumPlan
-*   System Name: storesPremiumPlan
-
-1.  Click on the Create Application Plan button.
+* Click on the **Create Application Plan** button.
 
 ![](images/image176.png)
 
-1.  Click on the Publish link.
+* Click on the **Publish** link.
 
 ![](images/image59.png)
 
-1.  Click on the Developers tab.
-2.  Click on the RHBank account.
+* Click on the **Developers** tab.
+* Click on the **RHBank** account.
 
 ![](images/image80.png)
 
-1.  Click on the 3 Applications. Breadcrumb.
-2.  Click on the Create Application link.
+* Click on the **3 Applications** Breadcrumb.
+* Click on the **Create Application** link.
 
 ![](images/image144.png)
 
-1.  Select the StoresPremiumPlan.
-2.  Enter the following values:
+* Select the **StoresPremiumPlan**.
+* Enter the following values:
+    * **Name**: storesApp
+    * **Description**: Stores Application
 
-*   Name: storesApp
-*   Description: Stores Application
-
-1.  Click on the Create Application button.
+* Click on the **Create Application** button.
 
 ![](images/image169.png)
 
-1.  Click on the Stores API link.
+* Click on the **Stores API** link.
 
 ![](images/image35.png)
 
-1.  Click on the Integration tab.
-2.  Click on the  add the base URL of your API and save the configuration button.
+* Click on the Integration tab.
+* Click on the  add the base URL of your API and save the configuration button.
 
 ![](images/image182.png)
 
