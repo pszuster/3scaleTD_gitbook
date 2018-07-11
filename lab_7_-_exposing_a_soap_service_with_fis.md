@@ -189,7 +189,7 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 
 ```
 
-![](images/image195.png)
+![](assets/Selection_367.png)
 
 1.  Scroll down to the bottom of the page and click on the Update Service button.
 2.  Open a web browser tab and go to [https://stores-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://stores-apicast-production.gateway.3scale1.rhtechofficelatam.com&sa=D&ust=1530635179407000) and accept the SSL certificate.
