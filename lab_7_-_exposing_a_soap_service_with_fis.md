@@ -183,7 +183,7 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 ![](assets/Selection_366.png)
 
 * Change the host attribute to: **stores-apicast-production.3scale.{{ book.suffix }}**
-* 
+* Change the scheme from _http_ to _https_.
 * For each of the four **user_key** parameters, add the following attribute: 
 
 ```
