@@ -18,6 +18,7 @@
 ![](../images/image38.png)
 
 * Click on the **1 Application** breadcrumb.
+
 {% hint style='info' %}
 Notice there is one default application for the built-in “API” service.
 {% endhint %}
