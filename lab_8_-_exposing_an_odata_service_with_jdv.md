@@ -1,28 +1,31 @@
 # Lab 8 - Exposing an OData Service with JDV {#lab-8-exposing-an-odata-service-with-jdv}
 
-| ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab you will deploy an OData service based on a JBoss DataVirtualization for Openshift (JDV) virtual database (VDB).  This VDB has a virtual view that retrieves data from two databases’ tables (MySQL and PostreSQL) and present them as a single SQL ANSI table. Then, out of the box, this view is exposed in JDV as an OData REST service. You can find more info about JDV here: |
-| --- | --- |
+{% hint style='info' %}
+In this lab you will deploy an OData service based on a JBoss DataVirtualization for Openshift (JDV) virtual database (VDB).  This VDB has a virtual view that retrieves data from two databases’ tables (MySQL and PostreSQL) and present them as a single SQL ANSI table. Then, out of the box, this view is exposed in JDV as an OData REST service. You can find more info about JDV here: https://www.redhat.com/en/technologies/jboss-middleware/data-virtualization
+{% endhint %}
 
-1.  Open a web browser and go to [https://threescale.3scale[your instance #].rhtechofficelatam.com:8443/console/](https://www.google.com/url?q=https://threescale.3scale.rhtechofficelatam.com:8443/console/&sa=D&ust=1530635179412000) 
-2.  Login as admin/admin
-3.  Select the Stock API project.
-4.  Click on the Add to Project button.
+* Open a web browser and go to https://{{ book.hostname }}:8443/
+* Login as admin/admin
+* Select the **Stock API** project.
+* Click on the **Browse Catalog** button.
 
-![](images/image180.png)
+![](assets/Selection_370.png)
 
-1.  Enter stock-api in the Browse Catalog search field.
-2.  Click on the Select button in the found template.
+* Select the **Stock-API** template.
+* Click on the **Next >** button.
+* Set the **Custom http Route Hostname** field to: stock-api.{{ book.suffix }}
+* Scroll down to the bottom of the page and click on the **Create** button.
 
-![](images/image189.png)
+![](assets/Selection_371.png)
 
-1.  Set the Custom http Route Hostname field to: stock-api.3scale[your instance #].rhtechofficelatam.com.
-2.  Scroll down to the bottom of the page and click on the Create button.
-3.  Click on the Continue to overview link.
-4.  In ~5min, a JBoss DataVirtualization service will be deployed to OpenShift along with two databases: a MySQL and a PostgreSQL instance.
+* Click on the **Continue to the project overview** link.
+* After ~5min, a **JBoss Data Virtualization** service will be deployed to OpenShift along with two databases: a **MySQL** and a **PostgreSQL** instance.
 
-![](images/image100.png)
+![](assets/Selection_372.png)
 
-1.  When the three circles are blue, open a new web browser tab and go to [http://stock-api.3scale[your instance #].rhtechofficelatam.com/odata4/Stock-API/FederatedStock/stock?$format=JSON](https://www.google.com/url?q=http://stock-api.3scale1.rhtechofficelatam.com/odata4/Stock-API/FederatedStock/stock?$format%3DJSON&sa=D&ust=1530635179414000) 
+
+* When the three circles are blue, open a new web browser tab and go to http://stock-api.{{ book.suffix }}/odata4/Stock-API/FederatedStock/stock?$format=JSON.
+
 
 ![](images/image63.png)
 
