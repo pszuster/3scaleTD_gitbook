@@ -114,7 +114,7 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 * Expand **Stores API**.
 * Click on the **Create Application Plan** link
 
-![](images/image179.png)
+![](assets/Selection_381.png)
 
 * Enter the following values:
     * **Name**: StoresPremiumPlan
@@ -122,7 +122,7 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 
 * Click on the **Create Application Plan** button.
 
-![](images/image176.png)
+![](assets/Selection_382.png)
 
 * Click on the **Publish** link.
 
@@ -147,14 +147,14 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 
 ![](images/image169.png)
 
-* Click on the **Stores API** link.
+* Click on the **Stores** API link.
 
-![](images/image35.png)
+![](assets/Selection_383.png)
 
 * Click on the **Integration** tab.
 * Click on the **add the base URL of your API and save the configuration** button.
 
-![](images/image182.png)
+![](assets/Selection_384.png)
 
 * Enter the following values:
 
@@ -168,7 +168,10 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 
 ![](assets/Selection_368.png)
 
-* You should receive a successful validation.
+{% hint style='info' %}
+You should receive a successful validation.
+{% endhint %}
+
 * Click on the **Back to Integration &amp; Configuration** link.
 
 ![](images/image200.png)
@@ -178,7 +181,7 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 ![](images/image46.png)
 
 * Click on the **ActiveDocs** tab.
-* Click on the **Edit** icon for the **Stores API** spec.
+* Click on the **Edit** icon for the **Stores** spec.
 
 ![](assets/Selection_366.png)
 
@@ -187,7 +190,7 @@ This Fuse Integration Services container, has a SpringBoot Camel route, that tra
 * For each of the four **user_key** parameters, add the following attribute: 
 
 ```
-,&quot;x-data-threescale-name&quot;: &quot;user_keys&quot;
+,"x-data-threescale-name": "user_keys"
 
 ```
 
