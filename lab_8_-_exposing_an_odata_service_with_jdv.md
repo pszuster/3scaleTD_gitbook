@@ -99,15 +99,15 @@ JDV is a data integration tool that allows you to connect to different data sour
 * Enter the following values:
 
     * **Private Base URL**: http://stock-api.{{ book.suffix }}
-    *** Staging Public Base URL**: https://stock-apicast-staging.3scale.{{ book.suffix }}
+    * **Staging Public Base URL**: https://stock-apicast-staging.3scale.{{ book.suffix }}
     * **Production Public Base URL**: https://stock-apicast-production.3scale.{{ book.suffix }}
-
 * Click on the **edit** icon next to the **GET** operation under **Mapping Rules**.
 * Enter **/odata4/Stock-API/FederatedStock/stock** as the **Pattern**.
+* Add a **CORS** Policy.
 * Enter **/odata4/Stock-API/FederatedStock/stock?$format=JSON** in the **API test GET request**.
 4.  Click on the **Update &amp; test in the Staging Environment** button.
 
-![](images/image172.png)
+![](assets/Selection_377.png)
 
 * Click on the **Back to Integration &amp; Configuration** link.
 * Click on the **Promote v.1 to Production** button.
@@ -119,7 +119,7 @@ JDV is a data integration tool that allows you to connect to different data sour
 
 * Click on the **ActiveDocs** tab.
 
-![](images/image81.png)
+![](assets/Selection_378.png)
 
 * Click on the **Create a new spec** link.
 * Enter the following values:
@@ -132,31 +132,37 @@ JDV is a data integration tool that allows you to connect to different data sour
 * Paste the json file to the **API JSON Spec** field.
 * Change the **host** attribute to stock-apicast-production.3scale.{{ book.suffix }}
 
-![](images/image96.png)
+![](assets/Selection_380.png)
 
-1.  Scroll down to the bottom of the page and click on the Create Service button.
-2.  Click on the Publish button.
+* Scroll down to the bottom of the page and click on the** Create Service** button.
+* Click on the **Publish** button.
 
 ![](images/image153.png)
 
-1.  Open a web browser tab.
-2.  Go to https://stock-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com/odata4/Stock-API/FederatedStock/stock
-3.  Accept the SSL Certificate.
-4.  Close the tab and go back to 3Scale’s tab.
-5.  Expand the /stock operation.
-6.  Enter JSON in the $format field.
-7.  Click on the user_key field and select the StockApp user key.
-8.  Click on the Try it out! button.
+* Open a web browser tab.
+* Go to https://stock-apicast-production.3scale.{{ book.suffix }}/odata4/Stock-API/FederatedStock/stock
+* Accept the SSL Certificate.
+* Close the tab and go back to 3Scale’s tab.
+* Expand the **/stock** operation.
+* Enter **JSON** in the **$format** field.
+* Click on the **user_key** field and select the **StockApp** user key.
+* Click on the **Try it out!** button.
 
 ![](images/image109.png)
 
-1.  You should receive an OData JSON document.
-2.  Enter “productid eq 1” in the $filter field.
-3.  Click on the Try it out! button.
+{% hint style='tip' %}
+You should receive an OData JSON document.
+{% endhint %}
+
+*  Enter “**productid eq 1**” in the **$filter** field.
+*  Click on the **Try it out!** button.
 
 ![](images/image158.png)
 
-1.  You should receive an OData filtered JSON document.
+{% hint style='tip' %}
+You should receive an OData filtered JSON document.
+{% endhint %}
 
-| ![general_info_polished.png](images/image34.png) | The $filter field specifies a “WHEN” condition for the query, “productid” is one of the columns of the virtual view, and “eq 1” means “=1”. |
-| --- | --- |
+{% hint style='infdo' %}
+The **$filter** field specifies a “WHEN” condition for the query, “**productid**” is one of the columns of the virtual view, and “eq 1” means “=1”. 
+{% endhint %}
