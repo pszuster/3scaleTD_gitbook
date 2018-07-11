@@ -187,7 +187,7 @@ You should receive a successful validation.
 
 * Change the host attribute to: **stores-apicast-production.3scale.{{ book.suffix }}**
 * Change the scheme from _http_ to _https_.
-* For each of the four **user_key** parameters, add the following attribute: 
+* For each of the _four_ **user_key** parameters, add the following attribute: 
 
 ```
 ,"x-data-threescale-name": "user_keys"
@@ -198,13 +198,15 @@ You should receive a successful validation.
 
 * Scroll down to the bottom of the page and click on the **Update Service** button.
 * Open a web browser tab and go to https://stores-apicast-production.3scale.{{ book.suffix }} and accept the SSL certificate.
-* Close the tab and go back to the **Stores API** ActiveDoc.
+* Close the tab and go back to the **Stores** API ActiveDoc.
 * Expand the **/allstores** operation.
 * Click on the **user_key** parameter field and select the **storesApp** user key.
 * Click on the **Try it out!** button.
 
 ![](images/image161.png)
 
-1.  You should receive a JSON document with a list of stores.
+{% hint style='info' %}
+You should receive a JSON document with a list of stores.
+{% endhint %}
 
 ![](images/image47.png)
