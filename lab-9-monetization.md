@@ -16,4 +16,20 @@ In this lab you will explore the monetization feature of 3scale API Management.
 
 ![](assets/Selection_387.png)
 
-* 
+* Enter the following values:
+    * **Name**: ProductsPaidPlan
+    * **System Name**: products/paid
+* Click on the **Create Application Plan** button.   
+
+![](assets/Selection_388.png)
+
+
+{% hint style='info' %}
+Note that you could also set things like a **Trial Period**, **Setup fee** and **Monthly Cost**
+{% endhint %}
+
+* Click on **Publish**.
+
+![](assets/Selection_389.png)
+
+
