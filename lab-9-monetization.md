@@ -54,7 +54,7 @@ Note that you could also set things like a **Trial Period**, **Setup fee** and *
 
 * Click on **new pricing rule**.
 * Enter the following values:
-    * **From**: 5
+    * **From**: 6
     * **To**: 
     * ** Cost per unit**: 0.5
 * Click on the **Create** button.
