@@ -12,4 +12,8 @@ In this lab you will explore the monetization feature of 3scale API Management.
 
 ![](assets/Selection_386.png)
 
+* Click on the **Create Application Plan** link.
 
+![](assets/Selection_387.png)
+
+* 
