@@ -43,16 +43,16 @@ Note that you could also set things like a **Trial Period**, **Setup fee** and *
 * Enter the following values:
     * **From**: 1
     * **To**: 5
-    * ** Cost per unit**: 1
+    * ** Cost per unit**: 2
 * Click on the **Create** button.
 
-![](../assets/Selection_393.png)
+![](../assets/Selection_411.png)
 
 * Click on **new pricing rule**.
 * Enter the following values:
     * **From**: 6
     * **To**: 
-    * ** Cost per unit**: 0.5
+    * ** Cost per unit**: 1
 * Click on the **Create** button.
 * Click on the **Update Application Plan** button.
 
@@ -79,10 +79,10 @@ Note that you could also set things like a **Trial Period**, **Setup fee** and *
 * Enter the following values:
     * **From**: 1
     * **To**:
-    * **Cost per Unit**: 2
+    * **Cost per Unit**: 1
 * Click on the **Create** button.
 
-![](../assets/Selection_397.png)
+![](../assets/Selection_410.png)
 
 * Click on the **Update Application plan** button.
 * Click on **Publish**.

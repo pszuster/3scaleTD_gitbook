@@ -45,3 +45,14 @@ So if today is 10th of July 2018, date should be: 2018-08-01
 
 ![](../assets/Selection_407.png)
 
+* Close the **Master Tenant** browser tab.
+* Go back to the 3scale admin console.
+* Click on the **Billing** tab.
+* Click on the **Invoices** tab.
+
+![](../assets/Selection_408.png)
+
+* Click on **Show Invoice**.
+* Scroll down to the bottom of the invoice.
+
+
