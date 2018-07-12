@@ -89,7 +89,7 @@ Note that you could also set things like a **Trial Period**, **Setup fee** and *
 ![](assets/Selection_397.png)
 
 * Click on the **Update Application plan** button.
-
+* Click on **Publish**.
 
 
 
