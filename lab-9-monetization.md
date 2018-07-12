@@ -84,8 +84,12 @@ Note that you could also set things like a **Trial Period**, **Setup fee** and *
     * **From**: 1
     * **To**:
     * **Cost per Unit**: 2
+* Click on the **Create** button.
 
 ![](assets/Selection_397.png)
+
+* Click on the **Update Application plan** button.
+
 
 
 
