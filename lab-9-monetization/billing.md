@@ -57,3 +57,6 @@ So if today is 10th of July 2018, date should be: 2018-08-01
 
 ![](../assets/Selection_409.png)
 
+{% hint style='tip' %}
+You should see the 5 request charged USD 1 each.
+{% endhint %}
