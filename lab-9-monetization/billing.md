@@ -30,8 +30,13 @@ You will access the **Master Tenant** wich is the admin console for the super ad
 * Scroll down to the bottom of the page.
 * Click on the **Trigger Billing** API.
 * Enter the following values:
+
 | Paramter | Value |
 | --- | --- |
 | **access_token** | <paste token here> |
 | **provider_id** | 2 |
-| 
+| **date** | <current year, four digits>-<NEXT month, two digits>-01 |
+
+{% hint style='info' %}
+So if today is 10th of July 2018, date should be: 2018-08-01
+{% endhint %}
