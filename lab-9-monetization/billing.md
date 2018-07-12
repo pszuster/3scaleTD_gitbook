@@ -40,3 +40,8 @@ You will access the **Master Tenant** wich is the admin console for the super ad
 {% hint style='info' %}
 So if today is 10th of July 2018, date should be: 2018-08-01
 {% endhint %}
+
+* Click on the **Send Request** button.
+
+![](../assets/Selection_407.png)
+
