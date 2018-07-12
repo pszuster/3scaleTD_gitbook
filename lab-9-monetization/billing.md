@@ -55,4 +55,5 @@ So if today is 10th of July 2018, date should be: 2018-08-01
 * Click on **Show Invoice**.
 * Scroll down to the bottom of the invoice.
 
+![](../assets/Selection_409.png)
 
