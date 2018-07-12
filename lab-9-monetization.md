@@ -50,8 +50,14 @@ Note that you could also set things like a **Trial Period**, **Setup fee** and *
     * ** Cost per unit**: 1
 * Click on the **Create** button.
 
-![](assets/Selection_392.png)
 ![](assets/Selection_393.png)
 
-* 
+* Click on **new pricing rule**.
+* Enter the following values:
+    * **From**: 5
+    * **To**: 
+    * ** Cost per unit**: 0.5
+* Click on the **Create** button.
+
+
 
