@@ -62,5 +62,30 @@ Note that you could also set things like a **Trial Period**, **Setup fee** and *
 
 ![](assets/Selection_394.png)
 
+* Click on the **APIs** tab.
+* Expand the **Stock** API.
+* Click on **Create Application Plan**.
+
+![](assets/Selection_395.png)
+
+
+* Enter the following values:
+    * **Name**: Stock Paid Plan
+    * **System Name**: stockPaidPlan
+    * **Setup Fee**: 10
+* Click on the **Create Application Plan** button.
+
+![](assets/Selection_396.png)
+
+* Click on **Stock Paid Plan**.
+* Click on **Pricing**.
+* Click on **new pricing rule**.
+* Enter the following values:
+    * **From**: 1
+    * **To**:
+    * **Cost per Unit**: 2
+
+![](assets/Selection_397.png)
+
 
 
