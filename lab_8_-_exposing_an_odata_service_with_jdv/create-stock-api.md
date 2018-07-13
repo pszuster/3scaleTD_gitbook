@@ -49,14 +49,11 @@
 | **Description** | Stock Application |
 
 * Click on the **Create Application** button.
-
-![](../assets/Selection_376.png)
-
 * Click on the **Stock** API link.
 * Click on the **Integration** tab.
 * Click on the **add the base URL of your API and save the configuration** button.
 
-![](../images/image137.png)
+![](../assets/Selection_376.png)
 
 * Enter the following values:
 
