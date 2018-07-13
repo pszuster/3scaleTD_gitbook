@@ -6,9 +6,9 @@ The Benefits web app, will first invoke the Products API’s “getAll” operat
 
 * Open a web browser and go to https://{{ book.hostname }}:8443
 * Login as admin/admin.
-* Click on the **New Project** button.
+* Click on the **benefits-app** template.
 
-![](../images/image91.png)
+![](../assets/Selection_419.png)
 
 1. Enter the following values:
 
