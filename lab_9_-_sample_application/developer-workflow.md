@@ -35,5 +35,25 @@ Now you will play the roles of the API consumer and API provider to reproduce a 
 
 ![](../assets/Selection_425.png)
 
+* Click on the **RHBank2** account.
+* Click on the **1 Service Subscription** link.
+
+![](../assets/Selection_429.png)
+
+* Click on the **Subscribe** link for the **Products** API.
+
+![](../assets/Selection_430.png)
+
+* Select the **Default Plan**.
+* Click on the **Create Subscription** button.
+* Repeat these steps for the **Stores** and **Stock** APIs.
+
+![](../assets/Selection_431.png)
+
+
+
+![](../assets/Selection_430.png)
+
+
 
 
