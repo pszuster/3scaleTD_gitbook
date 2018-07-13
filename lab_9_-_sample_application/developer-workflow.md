@@ -50,6 +50,8 @@ Now you will play the roles of the API consumer and API provider to reproduce a 
 
 ![](../assets/Selection_431.png)
 
+### As API Consumer
+
 * Go back to the **Developer Portal** web browser tab.
 * Click on **SIGN IN**.
 
@@ -69,9 +71,14 @@ Now you will play the roles of the API consumer and API provider to reproduce a 
 
 ![](../assets/Selection_434.png)
 
-* 
-    
+* Click on the **ProductsPremiumPlan** plan.
+* Click on the **Select this plan** button.
 
+![](../assets/Selection_435.png)
+
+* Click on the **Create Application** button.
+
+![](../assets/Selection_436.png)
 
 
 
