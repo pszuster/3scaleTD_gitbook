@@ -125,6 +125,6 @@ You should receive an OData JSON document.
 You should receive an OData filtered JSON document.
 {% endhint %}
 
-{% hint style='infdo' %}
+{% hint style='info' %}
 The **$filter** field specifies a “WHEN” condition for the query, “**productid**” is one of the columns of the virtual view, and “eq 1” means “=1”. 
 {% endhint %}
