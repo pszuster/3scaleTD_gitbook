@@ -85,6 +85,8 @@ Now you will play the roles of the API consumer and API provider to reproduce a 
 
 ![](../assets/Selection_437.png)
 
+![](../assets/Selection_438.png)
+
 
 
 
