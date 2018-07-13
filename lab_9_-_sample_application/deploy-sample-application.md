@@ -30,13 +30,12 @@ The Benefits web app, will first invoke the Products API’s “getAll” operat
     * **Stock API URL**: https://stock-apicast-production.3scale.{{ book.suffix }}/odata4/Stock-API/FederatedStock/stock
     * **Stores API URL**: https://stores-apicast-production.3scale.{{ book.suffix }}/store/
 
-1. Open a new web browser tab (don’t close this one!).
-2. Go to [https://3scale-admin.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://3scale-admin.3scale1.rhtechofficelatam.com&sa=D&ust=1530635179451000)
-3. Login as admin/admin
-4. Click on the Applications tab.
-5. Click on the ProductsAppPremium.
+* Open a new web browser tab (don’t close this one!).
+* Go to https://3scale.3scale.{{ book.suffix }}
+* Login as rhbankdev/rhbank
+4. Click on the **Applications** tab.
 
-![](images/image201.png)
+![](../assets/Selection_422.png)
 
 1. Select and copy the User Key.
 
