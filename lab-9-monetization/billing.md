@@ -33,9 +33,9 @@ You will access the **Master Tenant** wich is the admin console for the super ad
 
 | Paramter | Value |
 | --- | --- |
-| **access_token** | <paste token here> |
+| **access_token** | &lt;paste token here&gt; |
 | **provider_id** | 2 |
-| **date** | <current year, four digits>-<NEXT month, two digits>-01 |
+| **date** | &lt;current year, four digits&gt;-&lt;NEXT month, two digits&gt;-01 |
 
 {% hint style='info' %}
 So if today is 10th of July 2018, date should be: 2018-08-01
