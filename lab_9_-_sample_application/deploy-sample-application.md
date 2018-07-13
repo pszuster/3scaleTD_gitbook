@@ -10,31 +10,25 @@ The Benefits web app, will first invoke the Products API’s “getAll” operat
 
 ![](../assets/Selection_419.png)
 
-1. Enter the following values:
+* Click on the **Next >** button.
+* Select **Create Project**.
+* Enter the following values:
+    * **Project Name**: benefits
+    * **Project Display Name**: Benefits App
+    
+![](../assets/Selection_420.png)
+    
+* Scroll down to the middle of the page, and enter:
 
-1. Name: benefits
-2. Display Name: Benefits
+    * **Application Hostname**: benefits.{{ book.suffix }}
+    
+![](../assets/Selection_421.png)
 
-1. Click on the Create button.
+* Set the following values:
 
-![](images/image22.png)
-
-1. Enter “benefits” in the Browse Catalog search field.
-2. Click on the Select button in the found template.
-
-![](images/image54.png)
-
-1. Scroll down to the middle of the page, and enter:
-
-1. Application Hostname: benefits.3scale[your instance #].rhtechofficelatam.com
-
-![](images/image53.png)
-
-1. Set the following values:
-
-1. Products API URL: [https://products-apicast-staging.gateway.3scale[your instance #].rhtechofficelatam.com:443/rest/services/products](https://www.google.com/url?q=https://products-apicast-staging.gateway.3scale.rhtechofficelatam.com:443/rest/services/products&sa=D&ust=1530635179450000)
-2. Stock API URL: [https://stock-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com/odata4/Stock-API/FederatedStock/stock](https://www.google.com/url?q=https://stock-apicast-production.gateway.3scale1.rhtechofficelatam.com/odata4/Stock-API/FederatedStock/stock&sa=D&ust=1530635179450000)
-3. Stores API URL: [https://stores-apicast-production.gateway.3scale[your instance #].rhtechofficelatam.com/store/](https://www.google.com/url?q=https://stores-apicast-production.gateway.3scale1.rhtechofficelatam.com/store/&sa=D&ust=1530635179451000)
+    * **Products API URL**: https://products-apicast-staging.3scale.{{ book.suffix }}/rest/services/allproducts
+    * **Stock API URL**: https://stock-apicast-production.3scale.{{ book.suffix }}/odata4/Stock-API/FederatedStock/stock
+    * **Stores API URL**: https://stores-apicast-production.3scale.{{ book.suffix }}/store/
 
 1. Open a new web browser tab (don’t close this one!).
 2. Go to [https://3scale-admin.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://3scale-admin.3scale1.rhtechofficelatam.com&sa=D&ust=1530635179451000)
