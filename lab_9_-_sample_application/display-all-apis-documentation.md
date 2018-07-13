@@ -49,7 +49,7 @@
 * Click on the **Developer Portal** tab again.
 * Click on the **Open your portal to the world** button.
 
-![](../images/image44.png)
+![](../assets/Selection_416.png)
 
 1.  Open a web browser tab and go to [https://3scale.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://3scale.3scale3.rhtechofficelatam.com&sa=D&ust=1530635179445000) 
 2.  Click on the Documentation tab.![](images/image58.png)
