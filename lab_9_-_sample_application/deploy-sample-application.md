@@ -25,51 +25,21 @@ The Benefits web app, will first invoke the Products API’s “getAll” operat
 ![](../assets/Selection_421.png)
 
 * Set the following values:
-
     * **Products API URL**: https://products-apicast-staging.3scale.{{ book.suffix }}/rest/services/allproducts
     * **Stock API URL**: https://stock-apicast-production.3scale.{{ book.suffix }}/odata4/Stock-API/FederatedStock/stock
     * **Stores API URL**: https://stores-apicast-production.3scale.{{ book.suffix }}/store/
 
+* Go back to the developer portal web browser tab.
+* Copy the **API Key** for the **Products Application**.
 
+![](../assets/Selection_439.png)
 
+* Go back to Openshift web console and paste it in the **Products API Key** field.
 
-4. Click on the **Applications** tab.
+![](../assets/Selection_439.png)
+![](../assets/Selection_440.png)
 
-![](../assets/Selection_422.png)
-
-1. Select and copy the User Key.
-
-![](images/image48.png)
-
-1. Go back to the Openshift console tab.
-2. Paste the user key, in the Products API Key parameter.
-
-![](images/image170.png)
-
-1. Go back to the 3Scale dashboard’s browser tab.
-2. Click on the Applications tab.
-3. Click on the storesApp application.
-4. Select and copy the User Key.
-
-![](images/image185.png)
-
-1. Switch back to the Openshift console browser tab.
-2. Paste the user key to the Stores API Key.
-
-![](images/image83.png)
-
-1. Go back to the 3Scale dashboard’s browser tab.
-2. Click on the Applications tab.
-3. Click on the StockApp application.
-4. Select and copy the User Key.
-
-![](images/image106.png)
-
-1. Switch back to the Openshift console browser tab.
-2. Paste the user key to the Stock API Key.
-
-![](images/image118.png)
-
-1. Click on the Create button.
-2. Click on the Continue to overview link.
-3. After ~2min, there should be a nodeJS container deployed to Openshift.
+* Repeat these steps for the **Stores** and **Stock** APIs.
+* Click on the **Create** button.
+* Click on the **Continue to the project overview** link.
+* After ~2min, there should be a nodeJS container deployed to Openshift.
