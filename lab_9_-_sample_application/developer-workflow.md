@@ -31,7 +31,9 @@ Now you will play the roles of the API consumer and API provider to reproduce a 
 
 * Go back to 3scale admin console browser tab.
 * Click on the **Developers** tab.
-* Click on **Activate**
+* Click on **Activate** next to account **RHBank2**.
 
 ![](../assets/Selection_425.png)
+
+
 
