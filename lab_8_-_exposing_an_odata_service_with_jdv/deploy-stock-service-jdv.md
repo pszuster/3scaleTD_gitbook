@@ -9,7 +9,7 @@
 
 * Select the **Stock-API** template.
 * Click on the **Next >** button.
-* Set the **Custom http Route Hostname** field to: stock-api.{{ book.suffix }}
+* Set the **Custom http Route Hostname** field to: **stock-api.{{ book.suffix }}**
 * Scroll down to the bottom of the page and click on the **Create** button.
 
 ![](../assets/Selection_371.png)
