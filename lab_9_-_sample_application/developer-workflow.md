@@ -48,11 +48,11 @@ Now you will play the roles of the API consumer and API provider to reproduce a 
 * Click on the **Create Subscription** button.
 * Repeat these steps for the **Stores** and **Stock** APIs.
 
-![](../assets/Selection_431.png)
-
-
-
 ![](../assets/Selection_430.png)
+
+
+
+![](../assets/Selection_431.png)
 
 
 
