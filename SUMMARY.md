@@ -29,6 +29,7 @@
   * [Billing](lab-9-monetization/billing.md)
 * [Lab 10 - Sample Application](lab_9_-_sample_application.md)
   * [Display all APIs documentation](lab_9_-_sample_application/display-all-apis-documentation.md)
+  * [Developer workflow](lab_9_-_sample_application/developer-workflow.md)
   * [Deploy Sample Application](lab_9_-_sample_application/deploy-sample-application.md)
 * [Lab 10 - Securing APIs with OAuth2](lab_10_-_securing_apis_with_oauth2.md)
 

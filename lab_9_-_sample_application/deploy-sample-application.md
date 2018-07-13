@@ -30,26 +30,8 @@ The Benefits web app, will first invoke the Products API’s “getAll” operat
     * **Stock API URL**: https://stock-apicast-production.3scale.{{ book.suffix }}/odata4/Stock-API/FederatedStock/stock
     * **Stores API URL**: https://stores-apicast-production.3scale.{{ book.suffix }}/store/
 
-* Open a new web browser tab (don’t close this one!).
-* Go to https://3scale.3scale.{{ book.suffix }}
-* Click on **SIGN IN**.
-* Click on **Sign up**.
 
-![](../assets/Selection_427.png)
 
-* Enter the following values:
-
-| Parameter | Value |
-| --- | --- |
-| **Organization/Group Name** | RHBank2 |
-| **Username** | dev1 |
-| **Email** | dev1@rhbank.com |
-| **Password** | password |
-| **Password Confirmation** | password |
-
-* Click on the **Sign Up** button.
-
-![](../assets/Selection_428.png)
 
 4. Click on the **Applications** tab.
 
