@@ -19,15 +19,16 @@ It should invoke the Stock API to query about stores with stock available for th
 * Click on the **Products** API, **Stores** API and **Stock** API.
 * You should see the traffic created by the **Benefits** application (specifically for the “**Get All Products**”, “**store_storeID_GET**” and stock “**Hits**” operations.
 
-![](images/image73.png)
+![](../images/image73.png)
 
-![](images/image45.png)
+![](../images/image45.png)
 
-![](images/image120.png)
+![](../images/image120.png)
 
-* Open a web browser tab and go to https://3scale-admin.3scale.{{ book.suffix }}
+* Go back to the Developer Portal (https://3scale.3scale.{{ book.suffix }})
+* Login as dev1/password.
 * Click on the **Statistics** tab.
-* Cycle through the involved plans to view the API activity (ProductAppPremium, storesApp, StockApp).
+* Cycle through the involved applications to view the API activity (ProductsApp, StoresApp, StockApp).
 
-![](images/image84.png)
+![](../images/image84.png)
 
