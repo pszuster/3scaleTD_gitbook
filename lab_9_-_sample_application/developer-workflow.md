@@ -48,11 +48,32 @@ Now you will play the roles of the API consumer and API provider to reproduce a 
 * Click on the **Create Subscription** button.
 * Repeat these steps for the **Stores** and **Stock** APIs.
 
-![](../assets/Selection_430.png)
-
-
-
 ![](../assets/Selection_431.png)
+
+* Go back to the **Developer Portal** web browser tab.
+* Click on **SIGN IN**.
+
+![](../assets/Selection_432.png)
+
+* Login as dev1/password.
+* Click on **Applications**.
+* Click on the **Create Application** button.
+
+![](../assets/Selection_433.png)
+
+* Click on **Products**.
+* Enter the following values:
+    * **Name**: ProductsApp
+    * **Description: Products Application
+* Click on **Review/Change**.
+
+![](../assets/Selection_434.png)
+
+* 
+    
+
+
+
 
 
 
