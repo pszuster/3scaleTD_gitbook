@@ -18,7 +18,7 @@
 
 ![](../assets/Selection_362.png)
 
-* Select and copy the generated Token.
+* Select and copy the generated **Token**.
 
 ![](../assets/Selection_363.png)
 
