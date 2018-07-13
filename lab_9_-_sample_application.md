@@ -1,7 +1,8 @@
 # Lab 9 - Sample Application {#lab-9-sample-application}
 
-| ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab you will deploy a really simple nodeJS web application that simulates a business partner of the owner of the API that uses the 3 APIs configured in the previous labs, to generate value. |
-| --- | --- |
+{% hint style='info' %}
+In this lab you will deploy a really simple nodeJS web application that simulates a business partner of the owner of the API that uses the 3 APIs configured in the previous labs, to generate value. 
+{% endhint %}
 
 1.  Open a web browser and go to [https://3scale-admin.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://3scale-admin.3scale3.rhtechofficelatam.com&sa=D&ust=1530635179434000) 
 2.  Login as admin/admin.
