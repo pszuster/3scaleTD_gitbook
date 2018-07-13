@@ -6,3 +6,4 @@ In this lab you will explore the monetization feature of 3scale API Management.
 
 
 
+![](assets/Selection_414.png)
