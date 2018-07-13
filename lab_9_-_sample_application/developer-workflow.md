@@ -80,6 +80,13 @@ Now you will play the roles of the API consumer and API provider to reproduce a 
 
 ![](../assets/Selection_436.png)
 
+* Click on **Applications**.
+* Repeat these steps to create an application for both the **Stock** and **Stores** APIs (choosing always the premium plan).
+
+![](../assets/Selection_437.png)
+
+
+
 
 
 
