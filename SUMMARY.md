@@ -27,6 +27,6 @@
   * [Create Application Plans](lab-9-monetization/create-application-plans.md)
   * [Create Application](lab-9-monetization/create-applications.md)
   * [Billing](lab-9-monetization/billing.md)
-* [Lab 9 - Sample Application](lab_9_-_sample_application.md)
+* [Lab 10 - Sample Application](lab_9_-_sample_application.md)
 * [Lab 10 - Securing APIs with OAuth2](lab_10_-_securing_apis_with_oauth2.md)
 
