@@ -67,6 +67,22 @@ In this lab, you configure and test a rate limiting policy in an application pla
 
 * Open a new web browser tab.
 * Paste the URL and reload it 5 times.
-* After 6 invokations, you should receive an "**Authentication failed**" message since you exceeded the application plan limit (5 per hour), as defined here:
+
+{% hint style='tip' %}
+After 6 invokations, you should receive an "**Limits exceeded**" message since you exceeded the application plan limit (5 per hour), as defined in the **Application Plan**:
+{% endhint %}
 
 ![](images/image93.png)
+
+* Go back to 3scale admin console.
+* Click on the **Applications** tab.
+* Click on the **ProductsApp** application.
+* Scroll down to the bottom of the page, to the **Current Utilization** section.
+
+![](assets/Selection_413.png)
+
+
+
+
+
+
