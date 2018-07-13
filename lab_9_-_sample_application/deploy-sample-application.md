@@ -43,3 +43,5 @@ The Benefits web app, will first invoke the Products API’s “getAll” operat
 * Click on the **Create** button.
 * Click on the **Continue to the project overview** link.
 * After ~2min, there should be a nodeJS container deployed to Openshift.
+
+![](../assets/Selection_441.png)
