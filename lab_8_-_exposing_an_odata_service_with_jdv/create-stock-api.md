@@ -85,7 +85,7 @@
 
 * Click on the **Create a new spec** link.
 * Enter the following values:
-    * **Name**: Stock API
+    * **Name**: Stock
     * **System Name**: stockApiSpec
 
 * Open a new web browser tab and go to [https://raw.githubusercontent.com/pszuster/3ScaleTD/master/Stock/stock-api-swagger.json](https://raw.githubusercontent.com/pszuster/3ScaleTD/master/Stock/stock-api-swagger.json)
