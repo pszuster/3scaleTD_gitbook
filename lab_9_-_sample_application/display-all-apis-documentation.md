@@ -48,11 +48,15 @@
 * Click on the **Publish** button.
 * Click on the **Developer Portal** tab again.
 * Click on the **Open your portal to the world** button.
+* Accept the warning.
 
 ![](../assets/Selection_416.png)
 
-1.  Open a web browser tab and go to [https://3scale.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://3scale.3scale3.rhtechofficelatam.com&sa=D&ust=1530635179445000) 
-2.  Click on the Documentation tab.![](images/image58.png)
+* Open a web browser tab and go to https://3scale.3scale.{{ book.suffix }}
+* Click on the **Documentation** tab.
 
-1.  You should see all your APIs’ documentation in one page. This is what a customer/partner/user of your API would visit to start interacting with you.
+![](../assets/Selection_417.png)
 
+{% hint style='tip' %}
+You should see all your APIs’ documentation in one page. This is what a customer/partner/consumer of your API would visit to start interacting with you. 
+{% endhint %}
