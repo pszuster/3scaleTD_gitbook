@@ -35,4 +35,5 @@
 * [Lab 10 - Securing APIs with OIDC](lab_10_-_securing_apis_with_oauth2.md)
   * [Setup Red Hat Single Sign-On](lab_10_-_securing_apis_with_oauth2/setup-red-hat-single-sign-on.md)
   * [Secure an API with OIDC](lab_10_-_securing_apis_with_oauth2/secure-an-api.md)
+  * [Test Secured API](lab_10_-_securing_apis_with_oauth2/test-secured-api.md)
 
