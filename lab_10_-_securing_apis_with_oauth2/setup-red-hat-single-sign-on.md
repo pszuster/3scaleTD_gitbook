@@ -46,3 +46,4 @@ In this part of the lab, you will setup all the required configurations to make 
 * Click on the **Credentials** tab.
 * Take note of the **Secret**, you will need it later.
 
+![](../assets/Selection_447.png)
