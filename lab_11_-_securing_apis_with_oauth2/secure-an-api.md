@@ -31,7 +31,7 @@
 * Scroll down to the bottom of the page.
 * Click on the **Update the Staging Environment** button.
 * Click on the **Back to Integration & Configuration** link.
-* Click on the **Promite v.X to Production**.
+* Click on the **Promote v.X to Production**.
 * Click on the **Developers** tab.
 * Click on the **RHBank2** account.
 
