@@ -8,5 +8,5 @@ In this part of the lab, you will setup all the required configurations to make 
 * Accept the self-signed SSL certificate.
 * Login as **admin/passwod**.
 
-![](../asssets/Selection_442.png)
+![](../assets/Selection_442.png)
 
