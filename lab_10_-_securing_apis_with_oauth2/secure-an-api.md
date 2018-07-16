@@ -8,3 +8,7 @@
 
 ![](../assets/Selection_451.png)
 
+* Click on **edit integration settings**.
+
+![](../assets/Selection_452.png)
+
