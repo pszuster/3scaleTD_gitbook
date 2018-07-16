@@ -24,7 +24,7 @@
 ![](../assets/Selection_454.png)
 
 * Expand the **Authentication Settings** section.
-* Enter the following value for the **OpenID Conect Issuer**: https://3scale-client:&lt;Paste your CLIENT SECRET&gt;@sso.{{ book.suffix }}/auth/realms/3scaleRealm
+* Enter the following value for the **OpenID Conect Issuer**: http://3scale-client:&lt;Paste your CLIENT SECRET&gt;@sso-unsecure.{{ book.suffix }}/auth/realms/3scaleRealm
 
 ![](../assets/Selection_455.png)
 
