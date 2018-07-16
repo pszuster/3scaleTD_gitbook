@@ -14,7 +14,7 @@ Now that RH-SSO is ready and the API has been secured in 3scale, you will test i
 * Select **OAuth 2.0** from the **Type** dropdown, under the **Authorization** section.
 * Click on the **Get New Access Token** button.
 
-![](../assets/Selection_465.png)
+![](../assets/Selection_469.png)
 
 * Enter the following values:
 
