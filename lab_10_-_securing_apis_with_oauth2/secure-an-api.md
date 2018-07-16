@@ -54,11 +54,19 @@
 
 ![](../assets/Selection_458.png)
 
+* Take note of the generated **Client ID**.
+* Click on the **Change** link next to **Redirect URL** in the **API Credentials** section.
+* Enter https://www.getpostman.com/oauth2/callback as the **Redirect URL** and click on the **Update** button.
+
+
+![](../assets/Selection_463.png)
+
+
 * Go back to the **Red Hat Single Sign-On** console ( https://sso.{{ book.suffix }}/auth/admin).
 * Click on **Clients**.
 
 {% hint style='tip' %}
-There should be a new Client with the same ID as the 3scale's Application's Client ID.
+There should be a new Client with the same ID as the created 3scale's Application Client ID.
 {% endhint %}
 
 
