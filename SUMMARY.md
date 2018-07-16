@@ -34,4 +34,5 @@
   * [Test the sample application](lab_9_-_sample_application/test-the-sample-application.md)
 * [Lab 10 - Securing APIs with OIDC](lab_10_-_securing_apis_with_oauth2.md)
   * [Setup Red Hat Single Sign-On](lab_10_-_securing_apis_with_oauth2/setup-red-hat-single-sign-on.md)
+  * [Secure an API with OIDC](lab_10_-_securing_apis_with_oauth2/secure-an-api.md)
 
