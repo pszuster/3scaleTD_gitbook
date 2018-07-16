@@ -67,6 +67,7 @@
 
 {% hint style='tip' %}
 There should be a new Client with the same ID as the created 3scale's Application Client ID. 
+
 3scale can synchronize client credentials between 3scale (Application credentials) and a Red Hat Single Sign-On server using OpenID Connect (OIDC). 3scale utilizes a service called **Zync** to synchronize calls to the Red Hat Single Sign-On server.
 {% endhint %}
 
