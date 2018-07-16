@@ -11,6 +11,12 @@ In this part of the lab, you will setup all the required configurations to make 
 ![](../assets/Selection_442.png)
 
 * Make sure the **3scaleRealm** realm is selected.
+* Click on the **Login** tab.
+* Select **none** for the **Require SSL** field.
+* Click on the **Save** button.
+
+![](../assets/Selection_459.png)
+
 * Click on **Clients**.
 * Click on the **Create** button.
 
