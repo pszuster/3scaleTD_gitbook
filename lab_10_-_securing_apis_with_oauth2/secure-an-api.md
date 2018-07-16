@@ -54,6 +54,12 @@
 
 ![](../assets/Selection_458.png)
 
+* Go back to the **Red Hat Single Sign-On** console ( https://sso.{{ book.suffix }}/auth/admin).
+* Click on **Clients**.
+
+{% hint style='tip' %}
+There should be a new Client with the same ID as the 3scale's Application's Client ID.
+{% endhint %}
 
 
 
