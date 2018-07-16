@@ -42,3 +42,13 @@
 
 ![](../assets/Selection_457.png)
 
+* Enter the following values:
+
+| Parameter | Value |
+| --- | --- |
+| **Application Plan** | ProductsPremiumPlan |
+| **Name** | OIDCApp |
+| **Description** | OIDC Secured Application |
+
+* Click on the **Create Application** button.
+
