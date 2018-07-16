@@ -1,7 +1,18 @@
 # Lab 10 - Securing APIs with OAuth2 {#lab-10-securing-apis-with-oauth2}
 
-| ![RH_Icon_Compass_Button.png](images/image26.png) | In this lab you will modify the first API to use OAuth as the authentication mechanism, using a RH Single Sign-ON instance running in the same OCP cluster. |
-| --- | --- |
+{% hint style='info' %}
+In this lab you will modify the first API to use OpenID Connect as the authentication mechanism, using a Red Hat Single Sign-ON instance running in the same OCP cluster.
+{% endhint %}
+
+**OpenID Connect 1.0** is a simple identity layer on top of the OAuth 2.0 protocol. It allows Clients to verify the identity of the End-User based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the End-User in an interoperable and REST-like manner.
+
+**OpenID Connect** allows clients of all types, including Web-based, mobile, and JavaScript clients, to request and receive information about authenticated sessions and end-users. The specification suite is extensible, allowing participants to use optional features such as encryption of identity data, discovery of OpenID Providers, and session management, when it makes sense for them.
+
+
+
+
+
+
 
 1.  Open a web browser and go to [https://3scale-admin.3scale[your instance #].rhtechofficelatam.com](https://www.google.com/url?q=https://3scale-admin.3scale1.rhtechofficelatam.com&sa=D&ust=1530635179461000) 
 2.  Login as admin/admin
