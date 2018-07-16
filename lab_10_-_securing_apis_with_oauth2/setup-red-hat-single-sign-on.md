@@ -36,6 +36,13 @@ In this part of the lab, you will setup all the required configurations to make 
 
 ![](../assets/Selection_445.png)
 
+* Click on the **Service Account Roles** tab.
+* Select **realm-management** in the **Client Roles** drop-down.
+* Select **manage-clients** in the **Available Roles** list.
+* Click on the **Add selected >>** button.
 
+![](../assets/Selection_446.png)
 
+* Click on the **Credentials** tab.
+* Take note of the **Secret**, you will need it later.
 
