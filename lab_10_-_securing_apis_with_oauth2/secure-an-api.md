@@ -28,3 +28,17 @@
 
 ![](../assets/Selection_455.png)
 
+* Scroll down to the bottom of the page.
+* Click on the **Update the Staging Environment** button.
+* Click on the **Back to Integration & Configuration** link.
+* Click on the **Promite v.X to Production**.
+* Click on the **Developers** tab.
+* Click on the **RHBank2** account.
+
+![](../assets/Selection_456.png)
+
+* Click on the **4 Applications** breadcrumb link.
+* Click on **Create Application**.
+
+![](../assets/Selection_457.png)
+
