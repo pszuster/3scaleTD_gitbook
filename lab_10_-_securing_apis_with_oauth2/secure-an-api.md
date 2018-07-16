@@ -15,6 +15,13 @@
 * Scroll down to the bottom of the page.
 * Click on **OpenID Connect**.
 * Click on the **Update Service** button.
+* Accept the warning.
 
 ![](../assets/Selection_453.png)
 
+* Click on **edit APIcast configuration**.
+
+![](../assets/Selection_454.png)
+
+* Expand the **Authentication Settings** section.
+* Enter the following value for the **OpenID Conect Issuer**: https://3scale-client:&lt;Paste your CLIENT SECRET&gt;@sso.{{ book.suffix }}/auth/realms/3scaleRealm
