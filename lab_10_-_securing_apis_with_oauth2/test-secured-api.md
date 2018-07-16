@@ -20,6 +20,7 @@ Now that RH-SSO is ready and the API has been secured in 3scale, you will test i
 
 | Parameter | Value |
 | --- | --- |
+| **Token Name** | 3scale-OIDC |
 | **Callback URL** | https://www.getpostman.com/oauth2/callback |
 | **Auth URL** | http://sso-unsecured.{{ book.suffix }}/auth/realms/3scaleRealm/protocol/openid-connect/auth |
 | **Access Token URL** | http://sso-unsecured.{{ book.suffix }}/auth/realms/3scaleRealm/protocol/openid-connect/token |
@@ -27,3 +28,6 @@ Now that RH-SSO is ready and the API has been secured in 3scale, you will test i
 | **Client Secret** | &lt;Paste the Client Secret from the Application created in 3scale&gt; |
 
 * Click on the **Request Token** button.
+
+![](../assets/Selection_466.png)
+
