@@ -1,4 +1,4 @@
-# Lab 10 - Securing APIs with OAuth2 {#lab-10-securing-apis-with-oauth2}
+# Lab 11 - Securing APIs with OpenID Connect {#lab-11-securing-apis-with-oidc}
 
 {% hint style='info' %}
 In this lab you will modify the first API to use OpenID Connect as the authentication mechanism, using a Red Hat Single Sign-ON instance running in the same OCP cluster.
