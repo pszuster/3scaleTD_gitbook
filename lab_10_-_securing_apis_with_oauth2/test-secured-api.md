@@ -51,6 +51,11 @@ Now that RH-SSO is ready and the API has been secured in 3scale, you will test i
 
 ![](../assets/Selection_470.png)
 
+{% hint style='info' %}
+You should receive a successful response from the API.
+{% endhint %}
+
+
 
 
 
