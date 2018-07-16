@@ -34,6 +34,7 @@ In this part of the lab, you will setup all the required configurations to make 
 
 * Click on the **Save** button.
 
+![](../assets/Selection_445.png)
 
 
 
