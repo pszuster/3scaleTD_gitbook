@@ -42,6 +42,11 @@ Now that RH-SSO is ready and the API has been secured in 3scale, you will test i
 
 * Close the token window.
 * Select the "3scaleOIDC" token from the **Available Tokes** drop-down.
+* Go to **File -> Settings**.
+* Turn SSL Verification OFF.
+
+![](../assets/Selection_471.png)
+
 * Click on the **Send** button.
 
 ![](../assets/Selection_470.png)
