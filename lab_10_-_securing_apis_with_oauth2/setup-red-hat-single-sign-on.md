@@ -47,3 +47,26 @@ In this part of the lab, you will setup all the required configurations to make 
 * Take note of the **Secret**, you will need it later.
 
 ![](../assets/Selection_447.png)
+
+* Click on **Users** (under **Manage**).
+* Click on the **Add user** button.
+
+![](../assets/Selection_448.png)
+
+* Enter **user1** as the **Username**.
+* Click on the **Save** button.
+
+![](../assets/Selection_449.png)
+
+* Click on the **Credentials** tab.
+* Enter "password" as **New Password** and **Password Confirmation**.
+* Set **Temporary** to **OFF**.
+* Click on the **Reset Password** button.
+
+![](../assets/Selection_450.png)
+
+* Accept the warning.
+
+
+
+
