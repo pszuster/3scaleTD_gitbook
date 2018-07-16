@@ -31,3 +31,15 @@ Now that RH-SSO is ready and the API has been secured in 3scale, you will test i
 
 ![](../assets/Selection_466.png)
 
+* A RH-SSO screen should pop up.
+* Login as **user1/password**.
+
+![](../assets/Selection_467.png)
+
+* You should get a new token.
+
+![](../assets/Selection_468.png)
+
+
+
+
