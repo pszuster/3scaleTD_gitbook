@@ -32,7 +32,7 @@
   * [Developer workflow](lab_10_-_sample_application/developer-workflow.md)
   * [Deploy Sample Application](lab_10_-_sample_application/deploy-sample-application.md)
   * [Test the sample application](lab_10_-_sample_application/test-the-sample-application.md)
-* [Lab 11 - Securing APIs with OIDC](lab_11_-_securing_apis_with_oauth2.md)
+* [Lab 11 - Securing APIs with OIDC](lab_11_-_securing_apis_with_oidc.md)
   * [Setup Red Hat Single Sign-On](lab_11_-_securing_apis_with_oauth2/setup-red-hat-single-sign-on.md)
   * [Secure an API with OIDC](lab_11_-_securing_apis_with_oauth2/secure-an-api.md)
   * [Test Secured API](lab_11_-_securing_apis_with_oauth2/test-secured-api.md)
