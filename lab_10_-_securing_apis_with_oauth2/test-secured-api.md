@@ -11,4 +11,7 @@ Now that RH-SSO is ready and the API has been secured in 3scale, you will test i
 ![](../assets/Selection_464.png)
 
 * Enter https://products-apicast-staging.3scale.{{ book.suffix }} as the **URL**.
-* 
+* Select **OAuth 2.0** from the **Type** dropdown, under the **Authorization** section.
+
+![](../assets/Selection_465.png)
+
