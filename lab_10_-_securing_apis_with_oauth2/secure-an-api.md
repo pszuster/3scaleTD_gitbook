@@ -52,3 +52,8 @@
 
 * Click on the **Create Application** button.
 
+![](../assets/Selection_458.png)
+
+
+
+
