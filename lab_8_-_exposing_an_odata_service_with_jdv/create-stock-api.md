@@ -118,7 +118,7 @@ You have to drag and drop the small arrow icons in the right side of the policy
 * Paste the json file to the **API JSON Spec** field.
 * Change the **host** attribute to stock-apicast-production.3scale.{{ book.suffix }}
 
-![](../assets/Selection_380.png)
+![](../assets/Selection_475.png)
 
 * Scroll down to the bottom of the page and click on the** Create Service** button.
 * Click on the **Publish** button.
