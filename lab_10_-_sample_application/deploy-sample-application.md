@@ -26,7 +26,7 @@ The Benefits web app, will first invoke the Products API’s “getAll” operat
 
 * Set the following values:
     * **Products API URL**: https://products-apicast-staging.3scale.{{ book.suffix }}/rest/services/allproducts
-    * **Stock API URL**: https://stock-apicast-production.3scale.{{ book.suffix }}/odata4/Stock-API/FederatedStock/stock
+    * **Stock API URL**: https://stock-apicast-production.3scale.{{ book.suffix }}/stock
     * **Stores API URL**: https://stores-apicast-production.3scale.{{ book.suffix }}/store/
 
 * Go back to the developer portal web browser tab.
@@ -37,7 +37,8 @@ The Benefits web app, will first invoke the Products API’s “getAll” operat
 * Go back to Openshift web console and paste it in the **Products API Key** field.
 
 ![](../assets/Selection_439.png)
-![](../assets/Selection_440.png)
+![](../assets/Selection_477.png)
+
 
 * Repeat these steps for the **Stores** and **Stock** APIs.
 * Click on the **Create** button.
