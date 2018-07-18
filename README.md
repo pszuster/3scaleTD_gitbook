@@ -1,6 +1,6 @@
 ![](/assets/Logo_RH_3scale-APIManagement_RGB_black.png)
 
-Hands-on Labs
+**Hands-on Labs**
 
 | Author | Pablo Szuster \(pszuster@rehdat.com\) |
 | --- | --- |
