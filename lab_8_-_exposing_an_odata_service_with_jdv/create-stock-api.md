@@ -143,7 +143,7 @@ You should receive an OData JSON document.
 *  Enter “**productid eq 1**” in the **$filter** field.
 *  Click on the **Try it out!** button.
 
-![](../images/image158.png)
+![](../assets/Selection_476.png)
 
 {% hint style='tip' %}
 You should receive an OData filtered JSON document.
