@@ -61,12 +61,39 @@
     * **Staging Public Base URL**: https://stock-apicast-staging.3scale.{{ book.suffix }}
     * **Production Public Base URL**: https://stock-apicast-production.3scale.{{ book.suffix }}
 * Click on the **edit** icon next to the **GET** operation under **Mapping Rules**.
-* Enter **/odata4/Stock-API/FederatedStock/stock** as the **Pattern**.
-* Add a **CORS** Policy.
-* Enter **/odata4/Stock-API/FederatedStock/stock?$format=JSON** in the **API test GET request**.
-4.  Click on the **Update &amp; test in the Staging Environment** button.
+* Enter **/stock** as the **Pattern**.
 
-![](../assets/Selection_377.png)
+![](../assets/Selection_472.png)
+
+* Expand the **Policies** section.
+* Click on **Add Policy**.
+* Add a **CORS** Policy.
+* Click on **Add Policy** again.
+* Select **URL Rewriting**.
+* Move the **URL Rewriting** Policy below **APIcast** (and above **CORS**).
+
+{% hint style='tip' %}
+You have to drag and drop the small arrow icons in the right side of the policy
+{% endhint %}
+
+* Click on the **URL Rewriting** Policy.
+* Click on the **+** icon.
+* Enter the following values:
+
+| Parameter | Value |
+| --- | --- |
+| **op*** | Substitute the first match of the regex applied |
+| **regex*** | /stock | 
+| **replace*** | /odata4/Stock-API/FederatedStock/stock |
+
+* Click on the **Submit** button.
+
+![](../assets/Selection_473.png)
+
+* Enter **/stock?$format=JSON** in the **API test GET request**.
+* Click on the **Update &amp; test in the Staging Environment** button.
+
+![](../assets/Selection_474.png)
 
 * Click on the **Back to Integration &amp; Configuration** link.
 * Click on the **Promote v.1 to Production** button.
