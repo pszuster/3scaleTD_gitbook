@@ -126,7 +126,7 @@ You have to drag and drop the small arrow icons in the right side of the policy
 ![](../images/image153.png)
 
 * Open a web browser tab.
-* Go to https://stock-apicast-production.3scale.{{ book.suffix }}/odata4/Stock-API/FederatedStock/stock
+* Go to https://stock-apicast-production.3scale.{{ book.suffix }}/stock
 * Accept the SSL Certificate.
 * Close the tab and go back to 3Scale’s tab.
 * Expand the **/stock** operation.
