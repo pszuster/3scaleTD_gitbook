@@ -44,6 +44,6 @@ systems to enable charging for API usage, if desired.
 
 ![](images/image165.png)
 
-Red Hat also has tools to help create and deploy the services that form the APIs exposed in 3Scale AMP. It offers a broad portfolio of Middleware products that you can use to develop your APIs in a robust but light and agile way.
+Red Hat also has tools to help create and deploy the services that form the APIs exposed in 3Scale. It offers a broad portfolio of Middleware products that you can use to develop your APIs in a robust but light and agile way.
 
 ![](images/image25.png)
