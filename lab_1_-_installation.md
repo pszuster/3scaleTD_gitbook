@@ -1,6 +1,3 @@
-.markdown img {
-    border: 1px solid black;
-}
 # Lab 1 - Installation {#lab-1-installation}
 
 {% hint style='info' %}
