@@ -4,7 +4,7 @@
 * Login as admin/admin.
 * Click on the **APIs** tab.
 * Expand the **Products** API.
-* Click on **Inregration**.
+* Click on **Integration**.
 
 ![](../assets/Selection_451.png)
 
