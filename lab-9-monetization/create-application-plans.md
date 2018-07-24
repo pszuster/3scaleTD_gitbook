@@ -34,6 +34,7 @@ Note that you could also set things like a **Trial Period**, **Setup fee** and *
 
 ![](../assets/Selection_390.png)
 
+* Click on the **Application Plans** tab.
 * Click on **ProductsPaidPlan**.
 * Click on **Pricing** next to **Get All Products**.
 * Click on **new pricing rule**.
