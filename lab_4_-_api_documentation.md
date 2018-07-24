@@ -35,7 +35,8 @@ If you get a certificate error, click on the **Proceed to..** link.
 
 * Click on the **Register** link.
 
-![](assets/Selection_325.png)
+![](assets/Selection_484.png)
+
 * Complete the form with the following values:
 
 | Parameter | Value |
@@ -48,7 +49,7 @@ If you get a certificate error, click on the **Proceed to..** link.
 
 * Click on the **Register** button.
 
-![](assets/Selection_326.png)
+![](assets/Selection_485.png)
 
 * Click on the **Import API** button.
 
