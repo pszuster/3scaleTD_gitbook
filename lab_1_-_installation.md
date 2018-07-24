@@ -1,8 +1,3 @@
-<style>
-.markdown-section img {
-    border: 1px solid black;
-}
-</style>
 # Lab 1 - Installation {#lab-1-installation}
 
 {% hint style='info' %}
