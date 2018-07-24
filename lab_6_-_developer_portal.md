@@ -47,9 +47,9 @@ In this lab you will work on the Developer Portal to make it more friendly/brand
 
 ```html
 <div class="logo">
-       <a href="#"><img src="/images/RHMartLogo.png" alt="" style="height:100px; width:150px;">
-       </a>
-    </div>
+   <a href="#"><img src="/images/RHMartLogo.png" alt="" style="height:100px; width:150px;">
+   </a>
+</div>
 ```
 
 * Scroll down to the bottom of the page, and click on the **Save** button.
