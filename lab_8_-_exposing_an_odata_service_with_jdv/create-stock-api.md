@@ -100,7 +100,12 @@ You have to drag and drop the small arrow icons in the right side of the policy
 
 {% hint style='info' %}
 [OData](http://www.odata.org/) URLs in JDV are formed using the following syntax:
-/odata[4]/[VDB_Name]/[ModelName]/[ViewName]. To simplify this, we are using a **URL Rewriting** policy that will translate a short url as 'stock' to JDV's URL.
+/odata[4]/[VDB_Name]/[ModelName]/[ViewName]. In this case: /odata4/Stock-API/FederatedStock/stock, means:
+    * VDB_Name: Stock-API
+    * ModelName: FederatedStock
+    * ViewName: stock
+    
+To simplify this, we are using a **URL Rewriting** policy that will translate a short url as 'stock' to JDV's URL.
 {% endhint %}
 
 * Click on the **ActiveDocs** tab.
