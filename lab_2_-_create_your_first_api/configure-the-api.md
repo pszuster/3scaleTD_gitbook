@@ -96,7 +96,7 @@ Cross-origin resource sharing (CORS) is a mechanism that allows restricted resou
 
 
 * Scroll down to **API Test GET request**.
-* Enter  `/rest/services/product/1`.
+* Enter  `/rest/services/product/1`
 * Click on the **Update & Test in Staging Environment**.
 ![](../assets/Selection_321.png)
 
