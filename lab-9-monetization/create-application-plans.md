@@ -30,7 +30,7 @@ Note that you could also set things like a **Trial Period**, **Setup fee** and *
 
 * Click on the **Settings** tab.
 * Check the **Developers can select a plan when creating a new application** checkbox under **Application Plan Changing**.
-* Select **Change plan directly**-
+* Select **Change plan directly**.
 * Click on the **Update Service** button.
 
 ![](../assets/Selection_486.png)
