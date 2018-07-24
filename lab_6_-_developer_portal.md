@@ -62,7 +62,7 @@ In this lab you will work on the Developer Portal to make it more friendly/brand
 ![](images/image151.png)
 
 * Go to line #3 and replace **"Echo"** with **"RHMart"**.
-* Go to line #18.
+* Go to end of line #18.
 * Insert a new line.
 * Add the following code:
 
