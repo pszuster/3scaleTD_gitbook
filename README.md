@@ -5,7 +5,7 @@
 | Author | Pablo Szuster \(pszuster@rehdat.com\) |
 | --- | --- |
 | Version | 2 |
-| Updated | Jul 18th 2018 |
+| Updated | Jul 24th 2018 |
 | 3Scale Version: | AMP 2.2 |
 
 
