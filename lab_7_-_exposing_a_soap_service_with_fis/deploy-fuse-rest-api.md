@@ -9,7 +9,7 @@
 
 * Select the **stores-fis** template.
 * Click on the **Next>** button.
-* Change the **HostName** parameter to: stores-fis.{{ book.suffix }}
+* Change the **HostName** parameter to: **stores-fis.{{ book.suffix }}**
 * Click on the **Create** button.
 
 ![](../assets/Selection_360.png)
