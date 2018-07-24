@@ -40,4 +40,11 @@ In this lab, you will deploy a Red Hat 3Scale API Management Platform \(AMP\) in
 * After ~5 minutes, all the pods should have a blue circle, meaning 3Scale AMP is up and running.
 ![](images/Selection_315.png)
 
+If you want to learn more about **Openshift** you can check these resources:
+
+* https://www.openshift.com/learn/what-is-openshift/
+* https://www.openshift.com/learn/get-started/
+* https://learn.openshift.com/
+
+<iframe width="900" height="506" src="https://www.youtube.com/embed/D_Lj0rObunI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
