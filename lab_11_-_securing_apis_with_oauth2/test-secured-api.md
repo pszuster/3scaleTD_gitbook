@@ -30,7 +30,7 @@ Now that RH-SSO is ready and the API has been secured in 3scale, you will test i
 
 * Click on the **Request Token** button.
 
-![](../assets/Selection_466.png)
+![](../assets/Selection_488.png)
 
 * A RH-SSO screen should pop up.
 * Login as **user1/password**.
@@ -43,8 +43,6 @@ Now that RH-SSO is ready and the API has been secured in 3scale, you will test i
 
 * Close the token window.
 * Select the "3scaleOIDC" token from the **Available Tokes** drop-down.
-* Go to **File -> Settings**.
-* Turn SSL Verification OFF.
 
 ![](../assets/Selection_471.png)
 
