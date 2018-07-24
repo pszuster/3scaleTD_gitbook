@@ -27,6 +27,12 @@ In this lab, you will generate and test an [ActiveDocs](https://access.redhat.co
 ![](images/image75.png)
 
 * Open a new web browser tab, and go to http://apicurio-studio.{{ book.suffix }}
+
+{% hint style='danger' %}
+If you get a certificate error, click on the **Proceed to..** link.
+{% endhint %}
+
+
 * Click on the **Register** link.
 
 ![](assets/Selection_325.png)
