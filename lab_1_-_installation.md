@@ -35,9 +35,8 @@ In this lab, you will deploy a Red Hat 3Scale API Management Platform \(AMP\) in
 
 * Click on the "**Continue to the project overview"** link.
 
-----------
+
 ![](assets/create-3scale-project-completed.png)
-----------
 
 * After ~5 minutes, all the pods should have a blue circle, meaning 3Scale AMP is up and running.
 ![](images/Selection_315.png)
