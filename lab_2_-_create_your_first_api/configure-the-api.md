@@ -62,9 +62,9 @@
 * Open a new web browser tab, and go to https://{{ book.hostname }}:8443/console/project/products-api/overview
 
 ![](../images/image163.png)
-* Take note of the Products API http route. It should be http://products.{{ book.suffix }}
+* Take note of the **Products API** http route. It should be http://products.{{ book.suffix }}
 
-![](../images/image87.png)
+![](../assets/Selection_480.png)
 
 {% hint style='info' %}
 The Products API is a restful service built on Java \(JAX-RS\), deployed on JBoss EAP and connected to a PostgreSQL DB.
