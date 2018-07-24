@@ -15,7 +15,7 @@
 ![](../assets/Selection_360.png)
 
 * Click on the **Continue to project overview **link.
-* After ~3min the Fuse Integration Services container should be up and running (there should be a blue circle).
+* After ~3min the **Fuse on Openshift**container should be up and running (there should be a blue circle).
 
 ![](../assets/Selection_361.png)
 
