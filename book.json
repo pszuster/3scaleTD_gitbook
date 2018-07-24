@@ -4,7 +4,7 @@
 	    "guid": "1234",
 	    "hostname": "hostname_value",
 	    "suffix": "suffix_value"
-    }
+    },
     "styles":{
         "img": "styles/images.css"
     }
