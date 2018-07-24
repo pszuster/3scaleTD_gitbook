@@ -1,4 +1,4 @@
-# Red Hat 3Scale API Manager Platform Introduction {#red-hat-3scale-api-manager-platform-introduction}
+# Red Hat 3Scale API Management Introduction {#red-hat-3scale-api-manager-platform-introduction}
 
 Software is creating a new business reality—the increasing automation of processes, transactions and distribution across every industry and organization. This shift has to do not only with the use of software in particular processes, but also with exposing software interfaces to others—internal developers, partners, customers and the world at large. The result is a transformation for individual businesses that makes them radically more flexible and better able to engage with others. Further, at a global level, this trend heralds a new global business reality—the API Economy.
 

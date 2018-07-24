@@ -1,7 +1,7 @@
 # Summary
 
 * [3ScaleAMPWorkshop](README.md)
-* [Red Hat 3Scale API Manager Platform Introduction](red_hat_3scale_api_manager_platform_introduction.md)
+* [Red Hat 3Scale API Management Introduction](red_hat_3scale_api_manager_platform_introduction.md)
 * [Notes](notes.md)
 * [Lab 0 - Setup](lab_0_-_setup.md)
 * [Lab 1 - Installation](lab_1_-_installation.md)
