@@ -15,12 +15,12 @@
 
 ![](../images/image33.png)
 
-* Scroll down to the bottom of the page, and make sure API Key is selected as authentication method.
+* Scroll down to the bottom of the page, and make sure **API Key** is selected as authentication method.
 * Click on the **Create Servic**e button.
 
 ![](../images/image138.png)
 
-* In the APIs section, expand the **Products** API and scroll down to the **Published Application Plans** section.
+* In the **APIs** section, expand the **Products** API and scroll down to the **Published Application Plans** section.
 * Click on the **Create Application Plan** link.
 
 ![](../images/image186.png)
