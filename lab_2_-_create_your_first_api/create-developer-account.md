@@ -14,6 +14,7 @@
 | **Password** | rhbank |
 | **Organization** | RHBank |
 
+* Click on the **Create** button.
 
 ![](../images/image38.png)
 
