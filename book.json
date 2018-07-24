@@ -6,6 +6,6 @@
 	    "suffix": "suffix_value"
     },
     "styles":{
-        "ebook": "styles/images.css"
+        "website": "styles/images.css"
     }
 }
