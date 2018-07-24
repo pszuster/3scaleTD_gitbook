@@ -38,7 +38,7 @@ In this lab you will generate some load for the API and then check out the analy
 ![](images/image192.png)
 
 {% hint style='danger' %}
-You should get an authorization error, since the application you are using (**RHBank’s App**) is subscribed to the **ProductsBasicPlan** which only allows the GET methods.
+You should get a "Limits exceeded" error, since the application you are using (**RHBank’s App**) is subscribed to the **ProductsBasicPlan** which only allows the GET methods.
 {% endhint %}
 
 ![](images/image134.png)
