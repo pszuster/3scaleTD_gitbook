@@ -129,6 +129,11 @@ You should receive a successful validation.
 ![](../assets/Selection_369.png)
 
 * Scroll down to the bottom of the page and click on the **Update Service** button.
+
+{% hint style='tip' %}
+This property that was added to the parameteres, enables API Key auto-completion in ActiveDocs.
+{% endhint %}
+
 * Open a web browser tab and go to https://stores-apicast-production.3scale.{{ book.suffix }} and accept the SSL certificate.
 * Close the tab and go back to the **Stores** API ActiveDoc.
 * Expand the **/allstores** operation.
