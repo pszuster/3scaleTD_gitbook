@@ -66,7 +66,7 @@ Now you will play the roles of the API consumer and API provider to reproduce a 
 * Click on **Products**.
 * Enter the following values:
     * **Name**: ProductsApp
-    * **Description: Products Application
+    * **Description**: Products Application
 * Click on **Review/Change**.
 
 ![](../assets/Selection_434.png)
