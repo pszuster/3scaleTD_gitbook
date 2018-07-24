@@ -20,7 +20,7 @@
 ![](../assets/Selection_361.png)
 
 {% hint style='info' %}
-This Fuse Integration Services container has a SpringBoot Camel route that transforms REST requests to SOAP requests, and XML SOAP responses to JSON documents. It was created using a wizard in JBoss Developer Studio:
+This **Fuse on Openshift** container has a SpringBoot Camel route that transforms REST requests to SOAP requests, and XML SOAP responses to JSON documents. It was created using a wizard in JBoss Developer Studio:
 
 <iframe src="https://player.vimeo.com/video/279892542" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 {% endhint %}
