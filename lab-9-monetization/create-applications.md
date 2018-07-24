@@ -20,7 +20,7 @@
 
 * Click on the **APIs** tab.
 * Click on the **ActiveDocs** tab.
-* Click on the **Stock API** doc.
+* Click on the **Stock** doc.
 
 ![](../assets/Selection_402.png)
 
