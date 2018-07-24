@@ -21,7 +21,7 @@ In this lab, you configure and test a rate limiting policy in an application pla
 * Click on the **Limits** link for the **Get Product** method.
 * Click on the **New usage limit** link.
 
-![](images/image174.png)
+![](assets/Selection_482.png)
 
 * Enter the following values:
 
