@@ -21,6 +21,7 @@ In this lab, you will deploy a Red Hat 3Scale API Management Platform \(AMP\) in
 | **Project Name** | 3scale |
 | **Project Display Name** | 3scale API Management |
 
+
 ![](/assets/create-3scale-project.png)
 
 * Scroll down and complete the following values:
@@ -34,7 +35,6 @@ In this lab, you will deploy a Red Hat 3Scale API Management Platform \(AMP\) in
 * Click on the **Create** button.
 
 * Click on the "**Continue to the project overview"** link.
-
 
 ![](assets/create-3scale-project-completed.png)
 
