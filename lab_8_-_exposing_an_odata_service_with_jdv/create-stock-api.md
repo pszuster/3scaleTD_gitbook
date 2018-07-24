@@ -121,7 +121,7 @@ To simplify this, we are using a **URL Rewriting** policy that will translate a 
 * Copy the contents of the json file (Ctrl+A, Ctrl+C).
 * Close the browser tab.
 * Paste the json file to the **API JSON Spec** field.
-* Change the **host** attribute to stock-apicast-production.3scale.{{ book.suffix }}
+* Change the **host** attribute to **stock-apicast-production.3scale.{{ book.suffix }}**
 
 ![](../assets/Selection_475.png)
 
