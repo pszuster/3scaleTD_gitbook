@@ -1,7 +1,7 @@
 # Lab 4 - API Documentation {#lab-4-api-documentation}
 
 {% hint style='info' %}
-In this lab, you will generate and test an ActiveDocs documentation for the API created in the 2nd lab.
+In this lab, you will generate and test an [ActiveDocs](https://access.redhat.com/documentation/en-us/red_hat_3scale/2.2/html/api_documentation/create-activedocs-spec#threescale_activedocs_and_swagger) documentation for the API created in the 2nd lab.
 {% endhint %}
 
 *  Open a web browser and go to https://3scale-admin.3scale.{{ book.suffix }}
