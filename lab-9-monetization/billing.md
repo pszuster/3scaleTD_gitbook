@@ -60,3 +60,7 @@ So if today is 10th of July 2018, date should be: 2018-08-01
 {% hint style='tip' %}
 You should see the 5 request charged USD 1 each.
 {% endhint %}
+
+{% hint style='info' %}
+The invoices could be paid directly in the platform when configured to be integrated with a payment gateway like **Braintree**, **Adyen** or **Stripe**. More info in the [documentation](https://access.redhat.com/documentation/en-us/red_hat_3scale/2.2/html/billing/).
+{% endhint %}
