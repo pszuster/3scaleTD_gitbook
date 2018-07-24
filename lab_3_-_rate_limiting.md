@@ -16,7 +16,7 @@ In this lab, you configure and test a rate limiting policy in an application pla
 * Scroll down to the **Metrics, Methods &amp; Limits** section.
 * Disable both **Create** and **Delete** methods by clicking on their **Enabled** column.
 
-![](images/image132.png)
+![](assets/Selection_481.png)
 
 * Click on the **Limits** link for the **Get Product** method.
 * Click on the **New usage limit** link.
