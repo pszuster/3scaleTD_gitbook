@@ -1,6 +1,6 @@
 <style>
 .markdown-section img {
-    border: 2px solid black;
+    border: 1px solid black;
 }
 </style>
 # Lab 1 - Installation {#lab-1-installation}
